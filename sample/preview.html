@@ -165,7 +165,7 @@
           url.searchParams.set('transcriptUrl', transcriptUrl);
           transcriptUrlInput.value = transcriptUrl;
           let transcriptResponse = await fetch(transcriptUrl);
-          transcriptPre.textContent = await response.text();
+          transcriptPre.textContent = await transcriptResponse.text();
           loadTranscript(transcriptPre.textContent, transcriptUrl);
         } else if (transcriptFile) {
           const reader = new FileReader();
