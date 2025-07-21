@@ -7,7 +7,7 @@ import text_to_timestamps.utils
 
 def main_cli():
   parser = argparse.ArgumentParser(description='Text to Timestamps')
-  parser.add_argument('command', required = True, help='Command to run ("process" or "process_batch"). Required.')
+  parser.add_argument('command', help='Command to run ("process" or "process_batch"). Required.')
   parser.add_argument('--job_id', help='Job ID. Required when running "process".')
   parser.add_argument('--lang', help='BCP 47 language tag. Required when running "process".')
   parser.add_argument('--audio', help='URL or path to audio file. Required when running "process".')
@@ -16,11 +16,11 @@ def main_cli():
   parser.add_argument('--config', help='Path to config JSON file (or JSON string). Optional.')
   for category in text_to_timestamps.utils.default_config:
     for key, value in text_to_timestamps.utils.default_config[category].items():
-      parser.add_argument(f'--{category}.{key}', help='Individual config value. Optional.')
+      parser.add_argument(f'--{category}.{key}', default=argparse.SUPPRESS, help='Individual config value. Optional.')
   
   args = parser.parse_args()
   
-  if args.command == 'process':
+  if args.command == 'process' and args.job_id and args.lang and args.audio:
     result = process(
       args.job_id,
       args.lang,
@@ -29,9 +29,12 @@ def main_cli():
       config = args.config,
       **{ key: value for key, value in vars(args).items() if '.' in key },
     )
-  elif args.command == 'process_batch':
+  elif args.command == 'process_batch' and args.csv_input:
     result = process_batch(
       args.csv_input,
       config = args.config,
       **{ key: value for key, value in vars(args).items() if '.' in key },
     )
+  else:
+    text_to_timestamps.utils.write('Hello!')
+    

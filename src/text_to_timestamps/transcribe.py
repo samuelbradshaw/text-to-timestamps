@@ -125,31 +125,31 @@ def transcribe(method, audio_path, lang = 'en', get_words_if_available = False, 
   elif method == 'stable-ts':
     import stable_whisper
     model = stable_whisper.load_model(model_name, device = device)
-    result['data'] = model.transcribe(audio_path, language = lang, task = 'transcribe')
+    result['data'] = model.transcribe(audio_path, language = lang, task = 'transcribe').to_dict()
     result['text'] = result['data']['text'].strip()
     for segment in result['data']['segments']:
-      for word in segment['word_timestamps']:
-        result['words'].append({ 'text': word['word'].strip(), 'start': float(word['timestamp']), 'end': None })
+      for word in segment['words']:
+        result['words'].append({ 'text': word['word'].strip(), 'start': float(word['start']), 'end': float(word['end']) })
   
   # stable-ts (faster-whisper)
   elif method == 'stable-ts-faster-whisper':
     import stable_whisper
     model = stable_whisper.load_faster_whisper(model_name, device = device)
-    result['data'] = model.transcribe(audio_path, language = lang, task = 'transcribe')
+    result['data'] = model.transcribe(audio_path, language = lang, task = 'transcribe').to_dict()
     result['text'] = result['data']['text'].strip()
     for segment in result['data']['segments']:
-      for word in segment['word_timestamps']:
-        result['words'].append({ 'text': word['word'].strip(), 'start': float(word['timestamp']), 'end': None })
+      for word in segment['words']:
+        result['words'].append({ 'text': word['word'].strip(), 'start': float(word['start']), 'end': float(word['end']) })
   
   # stable-ts (MLX Whisper)
   elif method == 'stable-ts-mlx-whisper':
     import stable_whisper
     model = stable_whisper.load_mlx_whisper(model_name, device = device)
-    result['data'] = model.transcribe(audio_path, language = lang, task = 'transcribe')
+    result['data'] = model.transcribe(audio_path, language = lang, task = 'transcribe').to_dict()
     result['text'] = result['data']['text'].strip()
     for segment in result['data']['segments']:
-      for word in segment['word_timestamps']:
-        result['words'].append({ 'text': word['word'].strip(), 'start': float(word['timestamp']), 'end': None })
+      for word in segment['words']:
+        result['words'].append({ 'text': word['word'].strip(), 'start': float(word['start']), 'end': float(word['end']) })
   
   # Whisper JAX
   elif method == 'whisper-jax':

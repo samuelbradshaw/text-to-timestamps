@@ -157,7 +157,9 @@ def get_best_available_device(method):
     'faster-whisper', # https://github.com/SYSTRAN/faster-whisper/issues/911
     'lhotse', # https://github.com/openai/whisper/pull/382
     'stable-ts', # https://github.com/jianfch/stable-ts/issues/263
+    'stable-ts-faster-whisper', # https://github.com/SYSTRAN/faster-whisper/issues/911
     'stable-ts-align', # https://github.com/jianfch/stable-ts/issues/263
+    'stable-ts-faster-whisper-align', # https://github.com/SYSTRAN/faster-whisper/issues/911
     'whisper-openai', # https://github.com/openai/whisper/pull/382
     'whispers2t', # https://github.com/OpenNMT/CTranslate2/issues/1562
     'whisper-timestamped', # https://github.com/linto-ai/whisper-timestamped/issues/217

@@ -47,7 +47,7 @@ dependencies = [
   "torchaudio>=2.7.1",
   "transformers[torch]>=4.35.0",
   "whisper-jax @ git+https://github.com/goexle/whisper-jax@patch-2",
-  "whisper-mps @ git+https://github.com/samuelbradshaw/whisper-mps@versions",
+  "whisper-mps @ git+https://github.com/AtomGradient/whisper-mps",
   "whisper-s2t>=1.3.1",
   "whisper-timestamped>=1.15.8",
   "whisperx>=3.4.2",

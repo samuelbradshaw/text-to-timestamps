@@ -7,13 +7,13 @@
     "voice_isolation_method": null
   },
   "transcribe": {
-    "method": "stable-ts-faster-whisper",
+    "method": "stable-ts-mlx-whisper",
     "model_size": "small",
     "model_name": null,
     "batch_size": 16
   },
   "align": {
-    "method": "stable-ts-faster-whisper-align",
+    "method": "stable-ts-mlx-whisper-align",
     "model_size": "small",
     "model_name": null,
     "batch_size": 16

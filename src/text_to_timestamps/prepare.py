@@ -28,10 +28,10 @@ def prepare(job_id, audio, workfiles_directory, voice_isolation_method = None, f
     if 'https://' in audio:
       text_to_timestamps.utils.write(f'  Downloading audio: {audio}\n')
       download_path = download(audio, workfiles_directory, job_id)
-      extension = os.path.splitext(download_path)
+      extension = os.path.splitext(download_path)[-1]
     else:
       text_to_timestamps.utils.write(f'  Copying audio\n')
-      extension = os.path.splitext(audio)
+      extension = os.path.splitext(audio)[-1]
       download_path = os.path.join(workfiles_directory, f'{job_id}{extension}')
       shutil.copyfile(audio, download_path)
     
