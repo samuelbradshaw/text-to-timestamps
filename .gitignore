@@ -1,12 +1,16 @@
-*.pyc
+# Python-generated files
 __pycache__/
-.DS_Store*
-._*
-.Spotlight-V100
-.Trashes
-Icon?
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-*~
-/.venv/
-/_output/
-/_workfiles/
+# Virtual environments
+.venv
+.python-version
+
+# Workfiles
+sample/workfiles
+text_to_timestamps_workfiles
+text_to_timestamps_output

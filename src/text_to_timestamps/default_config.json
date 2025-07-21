@@ -1,0 +1,43 @@
+{
+  "general": {
+    "workfiles_directory": "text_to_timestamps_workfiles",
+    "output_directory": "text_to_timestamps_output",
+    "overwrite_previous_workfiles": false,
+    "overwrite_previous_output": true,
+    "voice_isolation_method": null
+  },
+  "transcribe": {
+    "method": "stable-ts-faster-whisper",
+    "model_size": "small",
+    "model_name": null,
+    "batch_size": 16
+  },
+  "align": {
+    "method": "stable-ts-faster-whisper-align",
+    "model_size": "small",
+    "model_name": null,
+    "batch_size": 16
+  },
+  "output": {
+    "format": ["csv"],
+    "granularity": ["word"],
+    "break_phrases_at": ["single_line_breaks", "character_count"],
+    "max_phrase_character_count": 40,
+    "time_offset": 0,
+    "csv_delimiter": ",",
+    "json_indent": 2,
+    "json_as_js": false,
+    "webvtt_timestamp_tags": false,
+    "include_text": true,
+    "include_prefixes": true,
+    "include_suffixes": true,
+    "include_start_times": true,
+    "include_end_times": true,
+    "include_start_offsets": false,
+    "include_end_offsets": false,
+    "include_block_numbers": false,
+    "include_phrase_numbers": false,
+    "include_word_numbers": false
+  },
+  "additional_metadata": {}
+}

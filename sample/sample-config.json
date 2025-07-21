@@ -1,0 +1,15 @@
+{
+  "general": {
+    "workfiles_directory": "sample/workfiles",
+    "output_directory": "sample/output",
+    "voice_isolation_method": "noisereduce"
+  },
+  "align": {
+    "method": "stable-ts-mlx-whisper-align",
+    "model_size": "small"
+  },
+  "output": {
+    "format": ["webvtt", "csv", "json"],
+    "granularity": ["block", "phrase", "word"]
+  }
+}

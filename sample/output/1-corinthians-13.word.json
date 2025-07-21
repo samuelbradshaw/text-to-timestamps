@@ -1,0 +1,2033 @@
+{
+  "metadata": {
+    "_": "Generated 2025-07-20 by Text to Timestamps (https://github.com/samuelbradshaw/text-to-timestamps)", 
+    "title": "One Small Step", 
+    "slug": "one-small-step", 
+    "lang": "en"
+  }, 
+  "segments": [
+    {
+      "text": "CHAPTER", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 0.88, 
+      "endTime": 1.1
+    }, 
+    {
+      "text": "13", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 1.1, 
+      "endTime": 1.76
+    }, 
+    {
+      "text": "Paul", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 2.64, 
+      "endTime": 2.8
+    }, 
+    {
+      "text": "discusses", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 2.8, 
+      "endTime": 3.38
+    }, 
+    {
+      "text": "the", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 3.38, 
+      "endTime": 3.52
+    }, 
+    {
+      "text": "high", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 3.52, 
+      "endTime": 3.74
+    }, 
+    {
+      "text": "status", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 3.74, 
+      "endTime": 4.22
+    }, 
+    {
+      "text": "of", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 4.22, 
+      "endTime": 4.52
+    }, 
+    {
+      "text": "charity—", 
+      "prefix": "", 
+      "suffix": "", 
+      "startTime": 4.52, 
+      "endTime": 5.84
+    }, 
+    {
+      "text": "Charity,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 5.84, 
+      "endTime": 6.48
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 6.78, 
+      "endTime": 6.88
+    }, 
+    {
+      "text": "pure", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 6.88, 
+      "endTime": 7.18
+    }, 
+    {
+      "text": "love,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 7.18, 
+      "endTime": 7.54
+    }, 
+    {
+      "text": "excels", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 7.98, 
+      "endTime": 8.38
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 8.38, 
+      "endTime": 8.8
+    }, 
+    {
+      "text": "exceeds", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 8.8, 
+      "endTime": 9.24
+    }, 
+    {
+      "text": "almost", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 9.24, 
+      "endTime": 9.78
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 9.78, 
+      "endTime": 10.28
+    }, 
+    {
+      "text": "else.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 10.28, 
+      "endTime": 10.56
+    }, 
+    {
+      "text": "Though", 
+      "prefix": "1 ", 
+      "suffix": " ", 
+      "startTime": 11.6, 
+      "endTime": 11.74
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 11.74, 
+      "endTime": 11.94
+    }, 
+    {
+      "text": "speak", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 11.94, 
+      "endTime": 12.28
+    }, 
+    {
+      "text": "with", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 12.28, 
+      "endTime": 12.66
+    }, 
+    {
+      "text": "the", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 12.66, 
+      "endTime": 12.84
+    }, 
+    {
+      "text": "tongues", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 12.84, 
+      "endTime": 13.18
+    }, 
+    {
+      "text": "of", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 13.18, 
+      "endTime": 13.44
+    }, 
+    {
+      "text": "men", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 13.46, 
+      "endTime": 13.78
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 13.78, 
+      "endTime": 14.2
+    }, 
+    {
+      "text": "of", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 14.2, 
+      "endTime": 14.34
+    }, 
+    {
+      "text": "angels,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 14.34, 
+      "endTime": 14.7
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 15.28, 
+      "endTime": 15.4
+    }, 
+    {
+      "text": "have", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 15.4, 
+      "endTime": 15.58
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 15.58, 
+      "endTime": 15.8
+    }, 
+    {
+      "text": "charity,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 15.8, 
+      "endTime": 16.46
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 17.08, 
+      "endTime": 17.22
+    }, 
+    {
+      "text": "am", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 17.22, 
+      "endTime": 17.38
+    }, 
+    {
+      "text": "become", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 17.38, 
+      "endTime": 17.76
+    }, 
+    {
+      "text": "as", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 17.76, 
+      "endTime": 18.08
+    }, 
+    {
+      "text": "sounding", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 18.08, 
+      "endTime": 18.52
+    }, 
+    {
+      "text": "brass,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 18.52, 
+      "endTime": 18.98
+    }, 
+    {
+      "text": "or", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 19.62, 
+      "endTime": 19.74
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 19.74, 
+      "endTime": 19.88
+    }, 
+    {
+      "text": "tinkling", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 19.88, 
+      "endTime": 20.26
+    }, 
+    {
+      "text": "cymbal.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 20.26, 
+      "endTime": 20.9
+    }, 
+    {
+      "text": "And", 
+      "prefix": "2 ", 
+      "suffix": " ", 
+      "startTime": 21.56, 
+      "endTime": 21.66
+    }, 
+    {
+      "text": "though", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 21.66, 
+      "endTime": 21.88
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 21.88, 
+      "endTime": 22.12
+    }, 
+    {
+      "text": "have", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 22.12, 
+      "endTime": 22.36
+    }, 
+    {
+      "text": "the", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 22.36, 
+      "endTime": 22.6
+    }, 
+    {
+      "text": "gift", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 22.6, 
+      "endTime": 22.9
+    }, 
+    {
+      "text": "of", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 23.0, 
+      "endTime": 23.12
+    }, 
+    {
+      "text": "prophecy,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 23.12, 
+      "endTime": 23.22
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 24.26, 
+      "endTime": 24.4
+    }, 
+    {
+      "text": "understand", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 24.4, 
+      "endTime": 24.9
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 24.9, 
+      "endTime": 25.32
+    }, 
+    {
+      "text": "mysteries,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 25.32, 
+      "endTime": 25.74
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 26.26, 
+      "endTime": 26.36
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 26.36, 
+      "endTime": 26.54
+    }, 
+    {
+      "text": "knowledge;", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 26.54, 
+      "endTime": 27.6
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 27.62, 
+      "endTime": 27.72
+    }, 
+    {
+      "text": "though", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 27.72, 
+      "endTime": 27.92
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 27.92, 
+      "endTime": 28.12
+    }, 
+    {
+      "text": "have", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 28.12, 
+      "endTime": 28.4
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 28.4, 
+      "endTime": 28.7
+    }, 
+    {
+      "text": "faith,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 28.7, 
+      "endTime": 29.08
+    }, 
+    {
+      "text": "so", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 29.84, 
+      "endTime": 29.98
+    }, 
+    {
+      "text": "that", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 30.02, 
+      "endTime": 30.18
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 30.18, 
+      "endTime": 30.34
+    }, 
+    {
+      "text": "could", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 30.34, 
+      "endTime": 30.54
+    }, 
+    {
+      "text": "remove", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 30.54, 
+      "endTime": 30.96
+    }, 
+    {
+      "text": "mountains,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 30.96, 
+      "endTime": 31.44
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 32.06, 
+      "endTime": 32.18
+    }, 
+    {
+      "text": "have", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 32.18, 
+      "endTime": 32.36
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 32.36, 
+      "endTime": 32.64
+    }, 
+    {
+      "text": "charity,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 32.64, 
+      "endTime": 33.12
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 33.96, 
+      "endTime": 34.1
+    }, 
+    {
+      "text": "am", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 34.1, 
+      "endTime": 34.26
+    }, 
+    {
+      "text": "nothing.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 34.26, 
+      "endTime": 34.58
+    }, 
+    {
+      "text": "And", 
+      "prefix": "3 ", 
+      "suffix": " ", 
+      "startTime": 35.82, 
+      "endTime": 35.82
+    }, 
+    {
+      "text": "though", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 35.82, 
+      "endTime": 36.0
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 36.0, 
+      "endTime": 36.22
+    }, 
+    {
+      "text": "bestow", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 36.22, 
+      "endTime": 36.74
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 36.74, 
+      "endTime": 37.04
+    }, 
+    {
+      "text": "my", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 37.04, 
+      "endTime": 37.28
+    }, 
+    {
+      "text": "goods", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 37.28, 
+      "endTime": 37.64
+    }, 
+    {
+      "text": "to", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 37.64, 
+      "endTime": 37.98
+    }, 
+    {
+      "text": "feed", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 38.1, 
+      "endTime": 38.26
+    }, 
+    {
+      "text": "the", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 38.26, 
+      "endTime": 38.5
+    }, 
+    {
+      "text": "poor,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 38.5, 
+      "endTime": 38.86
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 39.44, 
+      "endTime": 39.54
+    }, 
+    {
+      "text": "though", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 39.54, 
+      "endTime": 39.76
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 39.76, 
+      "endTime": 39.92
+    }, 
+    {
+      "text": "give", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 39.92, 
+      "endTime": 40.08
+    }, 
+    {
+      "text": "my", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 40.08, 
+      "endTime": 40.3
+    }, 
+    {
+      "text": "body", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 40.3, 
+      "endTime": 40.72
+    }, 
+    {
+      "text": "to", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 40.72, 
+      "endTime": 40.94
+    }, 
+    {
+      "text": "be", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 40.94, 
+      "endTime": 41.12
+    }, 
+    {
+      "text": "burned,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 41.12, 
+      "endTime": 41.46
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 41.94, 
+      "endTime": 42.06
+    }, 
+    {
+      "text": "have", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 42.06, 
+      "endTime": 42.28
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 42.28, 
+      "endTime": 42.52
+    }, 
+    {
+      "text": "charity,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 42.52, 
+      "endTime": 43.16
+    }, 
+    {
+      "text": "it", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 43.78, 
+      "endTime": 43.86
+    }, 
+    {
+      "text": "profiteth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 44.02, 
+      "endTime": 44.46
+    }, 
+    {
+      "text": "me", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 44.46, 
+      "endTime": 44.7
+    }, 
+    {
+      "text": "nothing.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 44.7, 
+      "endTime": 45.04
+    }, 
+    {
+      "text": "Charity", 
+      "prefix": "4 ", 
+      "suffix": " ", 
+      "startTime": 45.86, 
+      "endTime": 46.26
+    }, 
+    {
+      "text": "suffereth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 46.26, 
+      "endTime": 46.96
+    }, 
+    {
+      "text": "long,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 46.96, 
+      "endTime": 47.06
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 47.78, 
+      "endTime": 47.9
+    }, 
+    {
+      "text": "is", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 47.9, 
+      "endTime": 48.06
+    }, 
+    {
+      "text": "kind;", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 48.06, 
+      "endTime": 49.1
+    }, 
+    {
+      "text": "charity", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 49.18, 
+      "endTime": 49.5
+    }, 
+    {
+      "text": "envieth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 49.5, 
+      "endTime": 50.16
+    }, 
+    {
+      "text": "not;", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 50.16, 
+      "endTime": 51.22
+    }, 
+    {
+      "text": "charity", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 51.3, 
+      "endTime": 51.7
+    }, 
+    {
+      "text": "vaunteth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 51.7, 
+      "endTime": 52.36
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 52.36, 
+      "endTime": 52.58
+    }, 
+    {
+      "text": "itself,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 52.58, 
+      "endTime": 53.1
+    }, 
+    {
+      "text": "is", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 53.68, 
+      "endTime": 53.8
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 53.84, 
+      "endTime": 54.04
+    }, 
+    {
+      "text": "puffed", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 54.04, 
+      "endTime": 54.54
+    }, 
+    {
+      "text": "up,", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 54.54, 
+      "endTime": 54.68
+    }, 
+    {
+      "text": "Doth", 
+      "prefix": "5 ", 
+      "suffix": " ", 
+      "startTime": 55.68, 
+      "endTime": 55.82
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 55.82, 
+      "endTime": 56.04
+    }, 
+    {
+      "text": "behave", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 56.04, 
+      "endTime": 56.44
+    }, 
+    {
+      "text": "itself", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 56.44, 
+      "endTime": 56.94
+    }, 
+    {
+      "text": "unseemly,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 56.94, 
+      "endTime": 57.84
+    }, 
+    {
+      "text": "seeketh", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 58.4, 
+      "endTime": 58.82
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 58.86, 
+      "endTime": 59.06
+    }, 
+    {
+      "text": "her", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 59.06, 
+      "endTime": 59.38
+    }, 
+    {
+      "text": "own,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 59.38, 
+      "endTime": 59.72
+    }, 
+    {
+      "text": "is", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 60.26, 
+      "endTime": 60.4
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 60.4, 
+      "endTime": 60.6
+    }, 
+    {
+      "text": "easily", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 60.6, 
+      "endTime": 61.1
+    }, 
+    {
+      "text": "provoked,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 61.1, 
+      "endTime": 61.78
+    }, 
+    {
+      "text": "thinketh", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 62.46, 
+      "endTime": 62.9
+    }, 
+    {
+      "text": "no", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 62.94, 
+      "endTime": 63.16
+    }, 
+    {
+      "text": "evil;", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 63.16, 
+      "endTime": 63.64
+    }, 
+    {
+      "text": "Rejoiceth", 
+      "prefix": "6 ", 
+      "suffix": " ", 
+      "startTime": 64.54, 
+      "endTime": 65.06
+    }, 
+    {
+      "text": "not", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 65.06, 
+      "endTime": 65.36
+    }, 
+    {
+      "text": "in", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 65.36, 
+      "endTime": 65.72
+    }, 
+    {
+      "text": "iniquity,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 65.72, 
+      "endTime": 66.22
+    }, 
+    {
+      "text": "but", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 66.76, 
+      "endTime": 66.88
+    }, 
+    {
+      "text": "rejoiceth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 66.88, 
+      "endTime": 67.62
+    }, 
+    {
+      "text": "in", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 67.62, 
+      "endTime": 67.94
+    }, 
+    {
+      "text": "the", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 67.94, 
+      "endTime": 68.08
+    }, 
+    {
+      "text": "truth;", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 68.08, 
+      "endTime": 68.48
+    }, 
+    {
+      "text": "Beareth", 
+      "prefix": "7 ", 
+      "suffix": " ", 
+      "startTime": 69.52, 
+      "endTime": 69.74
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 69.74, 
+      "endTime": 70.0
+    }, 
+    {
+      "text": "things,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 70.0, 
+      "endTime": 70.38
+    }, 
+    {
+      "text": "believeth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 70.96, 
+      "endTime": 71.44
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 71.44, 
+      "endTime": 71.68
+    }, 
+    {
+      "text": "things,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 71.68, 
+      "endTime": 72.06
+    }, 
+    {
+      "text": "hopeth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 72.66, 
+      "endTime": 73.0
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 73.0, 
+      "endTime": 73.34
+    }, 
+    {
+      "text": "things,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 73.34, 
+      "endTime": 73.78
+    }, 
+    {
+      "text": "endureth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 74.32, 
+      "endTime": 74.9
+    }, 
+    {
+      "text": "all", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 75.0, 
+      "endTime": 75.16
+    }, 
+    {
+      "text": "things.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 75.16, 
+      "endTime": 75.5
+    }, 
+    {
+      "text": "Charity", 
+      "prefix": "8 ", 
+      "suffix": " ", 
+      "startTime": 76.36, 
+      "endTime": 76.78
+    }, 
+    {
+      "text": "never", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 76.78, 
+      "endTime": 77.3
+    }, 
+    {
+      "text": "faileth:", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 77.3, 
+      "endTime": 77.94
+    }, 
+    {
+      "text": "but", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 78.66, 
+      "endTime": 78.76
+    }, 
+    {
+      "text": "whether", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 78.76, 
+      "endTime": 79.06
+    }, 
+    {
+      "text": "there", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 79.06, 
+      "endTime": 79.28
+    }, 
+    {
+      "text": "be", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 79.28, 
+      "endTime": 79.46
+    }, 
+    {
+      "text": "prophecies,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 79.46, 
+      "endTime": 80.18
+    }, 
+    {
+      "text": "they", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 80.72, 
+      "endTime": 80.88
+    }, 
+    {
+      "text": "shall", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 80.88, 
+      "endTime": 81.16
+    }, 
+    {
+      "text": "fail;", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 81.16, 
+      "endTime": 82.06
+    }, 
+    {
+      "text": "whether", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 82.18, 
+      "endTime": 82.34
+    }, 
+    {
+      "text": "there", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 82.34, 
+      "endTime": 82.56
+    }, 
+    {
+      "text": "be", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 82.56, 
+      "endTime": 82.74
+    }, 
+    {
+      "text": "tongues,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 82.74, 
+      "endTime": 83.06
+    }, 
+    {
+      "text": "they", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 83.74, 
+      "endTime": 83.82
+    }, 
+    {
+      "text": "shall", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 83.82, 
+      "endTime": 84.06
+    }, 
+    {
+      "text": "cease;", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 84.06, 
+      "endTime": 85.02
+    }, 
+    {
+      "text": "whether", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 85.12, 
+      "endTime": 85.3
+    }, 
+    {
+      "text": "there", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 85.3, 
+      "endTime": 85.54
+    }, 
+    {
+      "text": "be", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 85.54, 
+      "endTime": 85.74
+    }, 
+    {
+      "text": "knowledge,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 85.74, 
+      "endTime": 86.14
+    }, 
+    {
+      "text": "it", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 86.74, 
+      "endTime": 86.84
+    }, 
+    {
+      "text": "shall", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 86.84, 
+      "endTime": 87.06
+    }, 
+    {
+      "text": "vanish", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 87.06, 
+      "endTime": 87.44
+    }, 
+    {
+      "text": "away.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 87.44, 
+      "endTime": 87.9
+    }, 
+    {
+      "text": "For", 
+      "prefix": "9 ", 
+      "suffix": " ", 
+      "startTime": 88.74, 
+      "endTime": 88.84
+    }, 
+    {
+      "text": "we", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 88.84, 
+      "endTime": 89.02
+    }, 
+    {
+      "text": "know", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 89.02, 
+      "endTime": 89.26
+    }, 
+    {
+      "text": "in", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 89.34, 
+      "endTime": 89.56
+    }, 
+    {
+      "text": "part,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 89.56, 
+      "endTime": 89.88
+    }, 
+    {
+      "text": "and", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 90.42, 
+      "endTime": 90.52
+    }, 
+    {
+      "text": "we", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 90.52, 
+      "endTime": 90.68
+    }, 
+    {
+      "text": "prophesy", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 90.68, 
+      "endTime": 91.4
+    }, 
+    {
+      "text": "in", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 91.4, 
+      "endTime": 91.82
+    }, 
+    {
+      "text": "part.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 91.82, 
+      "endTime": 92.1
+    }, 
+    {
+      "text": "But", 
+      "prefix": "10 ", 
+      "suffix": " ", 
+      "startTime": 93.14, 
+      "endTime": 93.14
+    }, 
+    {
+      "text": "when", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 93.14, 
+      "endTime": 93.36
+    }, 
+    {
+      "text": "that", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 93.36, 
+      "endTime": 93.58
+    }, 
+    {
+      "text": "which", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 93.58, 
+      "endTime": 93.82
+    }, 
+    {
+      "text": "is", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 93.82, 
+      "endTime": 94.04
+    }, 
+    {
+      "text": "perfect", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 94.2, 
+      "endTime": 94.46
+    }, 
+    {
+      "text": "is", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 94.46, 
+      "endTime": 94.84
+    }, 
+    {
+      "text": "come,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 94.84, 
+      "endTime": 95.18
+    }, 
+    {
+      "text": "then", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 95.74, 
+      "endTime": 95.88
+    }, 
+    {
+      "text": "that", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 95.88, 
+      "endTime": 96.08
+    }, 
+    {
+      "text": "which", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 96.08, 
+      "endTime": 96.34
+    }, 
+    {
+      "text": "is", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 96.34, 
+      "endTime": 96.54
+    }, 
+    {
+      "text": "in", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 96.54, 
+      "endTime": 96.72
+    }, 
+    {
+      "text": "part", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 96.72, 
+      "endTime": 97.16
+    }, 
+    {
+      "text": "shall", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 97.44, 
+      "endTime": 97.54
+    }, 
+    {
+      "text": "be", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 97.54, 
+      "endTime": 97.72
+    }, 
+    {
+      "text": "done", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 97.72, 
+      "endTime": 97.94
+    }, 
+    {
+      "text": "away.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 97.94, 
+      "endTime": 98.3
+    }, 
+    {
+      "text": "When", 
+      "prefix": "11 ", 
+      "suffix": " ", 
+      "startTime": 99.1, 
+      "endTime": 99.18
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 99.18, 
+      "endTime": 99.36
+    }, 
+    {
+      "text": "was", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 99.36, 
+      "endTime": 99.54
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 99.54, 
+      "endTime": 99.74
+    }, 
+    {
+      "text": "child,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 99.74, 
+      "endTime": 100.1
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 100.46, 
+      "endTime": 100.56
+    }, 
+    {
+      "text": "spake", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 100.56, 
+      "endTime": 100.98
+    }, 
+    {
+      "text": "as", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 100.98, 
+      "endTime": 101.18
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 101.18, 
+      "endTime": 101.3
+    }, 
+    {
+      "text": "child,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 101.3, 
+      "endTime": 101.7
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 102.36, 
+      "endTime": 102.46
+    }, 
+    {
+      "text": "understood", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 102.46, 
+      "endTime": 102.88
+    }, 
+    {
+      "text": "as", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 102.88, 
+      "endTime": 103.6
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 103.6, 
+      "endTime": 103.72
+    }, 
+    {
+      "text": "child,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 103.72, 
+      "endTime": 104.14
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 104.68, 
+      "endTime": 104.8
+    }, 
+    {
+      "text": "thought", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 104.8, 
+      "endTime": 105.1
+    }, 
+    {
+      "text": "as", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 105.1, 
+      "endTime": 105.58
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 105.58, 
+      "endTime": 105.68
+    }, 
+    {
+      "text": "child:", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 105.68, 
+      "endTime": 106.12
+    }, 
+    {
+      "text": "but", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 106.82, 
+      "endTime": 106.92
+    }, 
+    {
+      "text": "when", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 106.92, 
+      "endTime": 107.12
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 107.12, 
+      "endTime": 107.3
+    }, 
+    {
+      "text": "became", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 107.3, 
+      "endTime": 107.6
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 107.6, 
+      "endTime": 107.9
+    }, 
+    {
+      "text": "man,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 107.9, 
+      "endTime": 108.16
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 108.8, 
+      "endTime": 108.9
+    }, 
+    {
+      "text": "put", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 108.9, 
+      "endTime": 109.1
+    }, 
+    {
+      "text": "away", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 109.1, 
+      "endTime": 109.4
+    }, 
+    {
+      "text": "childish", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 109.4, 
+      "endTime": 109.96
+    }, 
+    {
+      "text": "things.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 109.96, 
+      "endTime": 110.44
+    }, 
+    {
+      "text": "For", 
+      "prefix": "12 ", 
+      "suffix": " ", 
+      "startTime": 111.38, 
+      "endTime": 111.48
+    }, 
+    {
+      "text": "now", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 111.48, 
+      "endTime": 111.74
+    }, 
+    {
+      "text": "we", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 111.74, 
+      "endTime": 112.02
+    }, 
+    {
+      "text": "see", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 112.02, 
+      "endTime": 112.34
+    }, 
+    {
+      "text": "through", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 112.34, 
+      "endTime": 112.62
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 112.62, 
+      "endTime": 112.82
+    }, 
+    {
+      "text": "glass,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 112.82, 
+      "endTime": 113.18
+    }, 
+    {
+      "text": "darkly;", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 113.42, 
+      "endTime": 114.26
+    }, 
+    {
+      "text": "but", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 114.36, 
+      "endTime": 114.46
+    }, 
+    {
+      "text": "then", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 114.46, 
+      "endTime": 114.76
+    }, 
+    {
+      "text": "face", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 114.76, 
+      "endTime": 115.16
+    }, 
+    {
+      "text": "to", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 115.16, 
+      "endTime": 115.4
+    }, 
+    {
+      "text": "face:", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 115.4, 
+      "endTime": 115.68
+    }, 
+    {
+      "text": "now", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 116.42, 
+      "endTime": 116.58
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 116.58, 
+      "endTime": 116.8
+    }, 
+    {
+      "text": "know", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 116.8, 
+      "endTime": 117.1
+    }, 
+    {
+      "text": "in", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 117.1, 
+      "endTime": 117.38
+    }, 
+    {
+      "text": "part;", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 117.38, 
+      "endTime": 118.2
+    }, 
+    {
+      "text": "but", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 118.32, 
+      "endTime": 118.42
+    }, 
+    {
+      "text": "then", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 118.42, 
+      "endTime": 118.64
+    }, 
+    {
+      "text": "shall", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 118.64, 
+      "endTime": 118.9
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 118.9, 
+      "endTime": 119.12
+    }, 
+    {
+      "text": "know", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 119.12, 
+      "endTime": 119.24
+    }, 
+    {
+      "text": "even", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 119.42, 
+      "endTime": 119.9
+    }, 
+    {
+      "text": "as", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 119.9, 
+      "endTime": 120.16
+    }, 
+    {
+      "text": "also", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 120.16, 
+      "endTime": 120.56
+    }, 
+    {
+      "text": "I", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 120.56, 
+      "endTime": 121.0
+    }, 
+    {
+      "text": "am", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 121.0, 
+      "endTime": 121.16
+    }, 
+    {
+      "text": "known.", 
+      "prefix": "", 
+      "suffix": "\n\n", 
+      "startTime": 121.16, 
+      "endTime": 121.28
+    }, 
+    {
+      "text": "And", 
+      "prefix": "13 ", 
+      "suffix": " ", 
+      "startTime": 122.36, 
+      "endTime": 122.36
+    }, 
+    {
+      "text": "now", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 122.36, 
+      "endTime": 122.66
+    }, 
+    {
+      "text": "abideth", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 122.66, 
+      "endTime": 123.3
+    }, 
+    {
+      "text": "faith,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 123.3, 
+      "endTime": 123.64
+    }, 
+    {
+      "text": "hope,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 124.26, 
+      "endTime": 124.62
+    }, 
+    {
+      "text": "charity,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 125.3, 
+      "endTime": 125.72
+    }, 
+    {
+      "text": "these", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 126.4, 
+      "endTime": 126.62
+    }, 
+    {
+      "text": "three;", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 126.62, 
+      "endTime": 127.7
+    }, 
+    {
+      "text": "but", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 127.84, 
+      "endTime": 127.94
+    }, 
+    {
+      "text": "the", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 127.94, 
+      "endTime": 128.1
+    }, 
+    {
+      "text": "greatest", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 128.1, 
+      "endTime": 128.48
+    }, 
+    {
+      "text": "of", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 128.48, 
+      "endTime": 128.8
+    }, 
+    {
+      "text": "these", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 128.8, 
+      "endTime": 129.12
+    }, 
+    {
+      "text": "is", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 129.16, 
+      "endTime": 129.6
+    }, 
+    {
+      "text": "charity.", 
+      "prefix": "", 
+      "suffix": "", 
+      "startTime": 129.6, 
+      "endTime": 129.9
+    }
+  ]
+}

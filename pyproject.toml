@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-to-timestamps"
+authors = [
+  {name = "Samuel Bradshaw", email = "samuel.h.bradshaw@gmail.com"},
+]
+description = "Python and command-line utility for aligning audio to a transcript."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["python", "command line", "machine learning", "transcription", "subtitles", "captioning", "speech to text", "speech recognition", "forced alignment", "audio", "timestamps", "karaoke", "batch processing", "json", "csv", "webvtt", "mlx", "mps"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.10,<3.13"
+dynamic = ["version"]
+dependencies = [
+  "deepfilternet @ git+https://github.com/benniekiss/DeepFilterNet@update_pyo3#subdirectory=DeepFilterNet",
+  "demucs @ git+https://github.com/MahmoudAshraf97/demucs@main",
+  "faster-whisper>=1.1.1",
+  "forcealign>=1.1.9",
+  "huggingface-hub>=0.30.0",
+  "jax==0.6.2",
+  "jaxlib>=0.6.2",
+  "lhotse>=1.30.3",
+  "librosa>=0.11.0",
+  "mlx-whisper>=0.4.2",
+  "moshi @ git+https://github.com/samuelbradshaw/moshi@bump-versions#subdirectory=moshi",
+  "moshi-mlx @ git+https://github.com/samuelbradshaw/moshi@bump-versions#subdirectory=moshi_mlx",
+  "noisereduce>=3.0.3",
+  "numpy>=2.0",
+  "openai-whisper>=20240930",
+  "openunmix>=1.3.0",
+  "parakeet-mlx>=0.3.3",
+  "pydub>=0.25.1",
+  "pywhispercpp>=1.3.3",
+  "requests",
+  "rustymimi>=0.4.1",
+  "sentencepiece>=0.2.0",
+  "soundfile>=0.13.1",
+  "stable-ts @ git+https://github.com/jianfch/stable-ts@main",
+  "tensorflow-io",
+  "torch>=2.7.1",
+  "torchaudio>=2.7.1",
+  "transformers[torch]>=4.35.0",
+  "whisper-jax @ git+https://github.com/goexle/whisper-jax@patch-2",
+  "whisper-mps @ git+https://github.com/samuelbradshaw/whisper-mps@versions",
+  "whisper-s2t>=1.3.1",
+  "whisper-timestamped>=1.15.8",
+  "whisperx>=3.4.2",
+]
+
+[project.urls]
+Repository = "https://github.com/samuelbradshaw/text-to-timestamps"
+Issues = "https://github.com/samuelbradshaw/text-to-timestamps/issues"
+Changelog = "https://github.com/samuelbradshaw/text-to-timestamps/releases"
+
+[project.scripts]
+text_to_timestamps = "text_to_timestamps.command_line:main_cli"
+
+[tool.setuptools_scm]

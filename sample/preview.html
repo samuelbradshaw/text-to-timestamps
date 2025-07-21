@@ -1,0 +1,273 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Timestamps Preview</title>
+    <style>
+      body {
+        display: flex;
+        margin: 0;
+      }
+      main, aside {
+        padding: 1em;
+      }
+      main { flex: 1 1 70%; }
+      aside {
+        flex: 0 1 30%;
+        max-width: 400px;
+        background-color: gainsboro;
+      }
+      @media (max-width: 800px) {
+        body {
+          flex-direction: column-reverse;
+        }
+        aside {
+          max-width: 100%;
+        }
+      }
+      input[type="text"], input[type="file"] {
+        width: 100%;
+        margin: 5px 0;
+      }
+      pre { white-space: pre-wrap; }
+      
+      body[data-playing="true"] #transcript {
+        color: silver;
+      }
+      body[data-playing="true"] #transcript span.active {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <aside>
+      <h2>Load a transcript</h2>
+      <form>
+        <fieldset>
+          <legend>Audio or video</legend>
+          <p>
+            <label><input type="radio" name="media" value="url" checked> From URL</label>
+            <label><input type="radio" name="media" value="file"> Local file</label>
+          </p>
+          <p id="media-url">
+            <label>URL: <input type="text" name="mediaUrl" placeholder="https://…"></label>
+          </p>
+          <p id="media-file">
+            <label>File: <input type="file" name="mediaFile"></label>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Timing JSON</legend>
+          <p>
+            <label><input type="radio" name="transcript" value="url" checked> From URL</label>
+            <label><input type="radio" name="transcript" value="file"> Local file</label>
+          </p>
+          <p id="transcript-url">
+            <label>URL: <input type="text" name="transcriptUrl" placeholder="https://…"></label>
+          </p>
+          <p id="transcript-file">
+            <label>File: <input type="file" name="transcriptFile"></label>
+          </p>
+        </fieldset>
+        <p>
+          <button>Load</button>
+        </p>
+      </form>
+      
+      <h2>Examples</h2>
+      <ul>
+        <li><a href="?mediaUrl=https%3A%2F%2Fmedia2.ldscdn.org%2Fassets%2Fscriptures%2Fthe-new-testament%2F2015-11-1460-1-corinthians-13-male-voice-64k-eng.mp3&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2F1-corinthians-13.word.json">1 Corinthians 13 (word)</a></li>
+        <li><a href="?mediaUrl=https%3A%2F%2Fmedia2.ldscdn.org%2Fassets%2Fscriptures%2Fthe-new-testament%2F2015-11-1460-1-corinthians-13-male-voice-64k-eng.mp3&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2F1-corinthians-13.phrase.json">1 Corinthians 13 (phrase)</a></li>
+        <li><a href="?mediaUrl=https%3A%2F%2Fmedia2.ldscdn.org%2Fassets%2Fscriptures%2Fthe-new-testament%2F2015-11-1460-1-corinthians-13-male-voice-64k-eng.mp3&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2F1-corinthians-13.block.json">1 Corinthians 13 (block)</a></li>
+        <li><a href="?mediaUrl=https%3A%2F%2Fmedia2.ldscdn.org%2Fassets%2Fyouth%2Fface-to-face-with-elder-and-sister-rasband%2F2020-09-1121-come-thou-fount-360p-eng.mp4&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2Fcome-thou-fount-september-2020.word.json">Come, Thou Fount (word)</a></li>
+        <li><a href="?mediaUrl=https%3A%2F%2Fmedia2.ldscdn.org%2Fassets%2Fyouth%2Fface-to-face-with-elder-and-sister-rasband%2F2020-09-1121-come-thou-fount-360p-eng.mp4&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2Fcome-thou-fount-september-2020.phrase.json">Come, Thou Fount (phrase)</a></li>
+        <li><a href="?mediaUrl=https%3A%2F%2Fmedia2.ldscdn.org%2Fassets%2Fyouth%2Fface-to-face-with-elder-and-sister-rasband%2F2020-09-1121-come-thou-fount-360p-eng.mp4&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2Fcome-thou-fount-september-2020.block.json">Come, Thou Fount (block)</a></li>
+        <li><a href="?mediaUrl=https%3A%2F%2Fwww.nasa.gov%2Fwp-content%2Fuploads%2F2015%2F01%2F590331main_ringtone_smallStep.mp3&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2Fone-small-step.word.json">One Small Step (word)</a></li>
+        <li><a href="?mediaUrl=https%3A%2F%2Fwww.nasa.gov%2Fwp-content%2Fuploads%2F2015%2F01%2F590331main_ringtone_smallStep.mp3&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2Fone-small-step.phrase.json">One Small Step (phrase)</a></li>
+        <li><a href="?mediaUrl=https%3A%2F%2Fwww.nasa.gov%2Fwp-content%2Fuploads%2F2015%2F01%2F590331main_ringtone_smallStep.mp3&transcriptUrl=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsamuelbradshaw%2Ftext-to-timestamps%40main%2Fsample%2Foutput%2Fone-small-step.block.json">One Small Step (block)</a></li>
+      </ul>
+      
+      <pre></pre>
+    
+    </aside>
+    
+    <main>
+      <h1>Timestamps Preview</h1>
+      <p>This page can be used to verify the accuracy of JSON timing data generated by <a href="https://github.com/samuelbradshaw/text-to-timestamps">Text to Timestamps</a>.</p>
+      <p>After audio and timing data is loaded, press Play to start.</p>
+      <audio controls></audio>
+      
+      <h2>Synced transcript</h2>
+      <div id="transcript">(Not loaded)</div>
+    </main>
+
+        
+    <script>
+      const url = new URL(window.location.href);
+      const form = document.querySelector('form');
+      const audioPlayer = document.querySelector('audio');
+      const radioButtons = document.querySelectorAll('input[type="radio"]');
+      const mediaUrlInput = form.elements['mediaUrl'];
+      const mediaFileInput = form.elements['mediaFile'];
+      const transcriptPre = document.querySelector('pre');
+      const transcriptDiv = document.getElementById('transcript');
+      const transcriptUrlInput = form.elements['transcriptUrl'];
+      const transcriptFileInput = form.elements['transcriptFile'];
+      let segments, startTimes, segmentsByStartTime, transcriptHtml;
+      
+      // Load the preview for the given transcript
+      async function loadPreview() {
+        let mediaUrl = mediaUrlInput.value || url.searchParams.get('mediaUrl');
+        let mediaFile = mediaFileInput.files?.[0];
+        let transcriptUrl = transcriptUrlInput.value || url.searchParams.get('transcriptUrl');
+        let transcriptFile = transcriptFileInput.files?.[0];
+        
+        if (mediaUrl) {
+          url.searchParams.set('mediaUrl', mediaUrl);
+          mediaUrlInput.value = mediaUrl;
+          audioPlayer.pause();
+          audioPlayer.src = mediaUrl;
+          audioPlayer.load();
+        } else if (mediaFile) {
+          audioPlayer.pause();
+          audioPlayer.src = URL.createObjectURL(mediaFile);
+          audioPlayer.load();
+        }
+        
+        // Load transcript HTML
+        function loadTranscript(transcriptContent, path) {
+          let fileExtension = path.split('?')[0].split('#')[0].split('.').at(-1);
+          startTimes = [];
+          segmentsByStartTime = {};
+          transcriptHtml = '';
+          if (fileExtension === 'json') {
+            segments = JSON.parse(transcriptContent)['segments'];
+          } else {
+            let lines = transcriptData.split('\n');
+            // TODO: Handle CSV, TSV, WebVTT
+            console.error('Only JSON is supported for timing preview.');
+          }
+          for (let st = 0; st < segments.length; st++) {
+            segment = segments[st];
+            segment.htmlId = `segment${st + 1}`;
+            if (!segmentsByStartTime.hasOwnProperty(segment.startTime)) {
+              segmentsByStartTime[segment.startTime] = [];
+            }
+            segmentsByStartTime[segment.startTime].push(segment);
+            if (!startTimes.includes(segment.startTime)) startTimes.push(segment.startTime);
+            transcriptHtml += `${segment.prefix ?? ' '}<span id="${segment.htmlId}">${segment.text}</span>${segment.suffix ?? ' '}`;
+          }
+          transcriptHtml = transcriptHtml.replaceAll('\n', '<br>')
+          transcriptDiv.innerHTML = transcriptHtml;
+        }
+        
+        if (transcriptUrl) {
+          url.searchParams.set('transcriptUrl', transcriptUrl);
+          transcriptUrlInput.value = transcriptUrl;
+          let transcriptResponse = await fetch('transcriptUrl');
+          transcriptPre.textContent = await response.text();
+          loadTranscript(transcriptPre.textContent, transcriptUrl);
+        } else if (transcriptFile) {
+          const reader = new FileReader();
+          reader.onload = (res) => {
+            transcriptPre.textContent = res.target.result;
+            loadTranscript(transcriptPre.textContent, transcriptFileInput.value);
+          };
+          reader.readAsText(transcriptFile);
+        }
+        
+      }
+      
+      // Find the index of the first value in a sorted array that's greater than or equal to the target value
+      function findFirstGte(arr, targetValue) {
+        let startIndex = 0;
+        let endIndex = arr.length - 1;
+        let resultIndex = -1;
+        
+        while (startIndex <= endIndex) {
+          let midIndex = Math.floor((startIndex + endIndex) / 2);
+          if (arr[midIndex] === targetValue) {
+            resultIndex = midIndex;
+            break;
+          } else if (arr[midIndex] > targetValue) {
+            resultIndex = midIndex;
+            endIndex = midIndex - 1; // Narrow potential result range
+          } else {
+            startIndex = midIndex + 1; // Narrow potential result range
+          }
+        }
+        return resultIndex;
+      }      
+      
+      // Schedule segments to be animated on the page
+      const scheduledCueTimes = new Set();
+      function scheduleNextCues() {
+        const currentTime = audioPlayer.currentTime;
+        const nextCueIndex = findFirstGte(startTimes, currentTime);
+        if (nextCueIndex === -1) return;
+        // Schedule 3 cues at a time
+        for (let ci = nextCueIndex; ci < Math.min(startTimes.length, nextCueIndex + 3); ci++) {
+          const cueTime = startTimes[ci];
+          if (cueTime != null && !scheduledCueTimes.has(cueTime)) {
+            scheduledCueTimes.add(cueTime);
+            for (const segment of segmentsByStartTime[cueTime]) {
+              const element = document.getElementById(segment.htmlId);
+              const startDelay = segment.startTime - currentTime;
+              const endDelay = Math.max(segment.endTime ?? segment.startTime, segment.startTime + 0.1) - currentTime;
+              setTimeout(() => {
+                if (!audioPlayer.paused) {
+                  element.classList.add('active');
+                }
+              }, startDelay * 1000);
+              setTimeout(() => {
+                element.classList.remove('active');
+                scheduledCueTimes.delete(cueTime);
+              }, endDelay * 1000);
+            }
+          }
+        }
+      }
+      
+      // Toggle visibility of the URL and File input fields
+      function setFieldVisibility() {
+        radioButtons.forEach((radioButton) => {
+          const targetDiv = document.getElementById(`${radioButton.name}-${radioButton.value}`);
+          const targetField = targetDiv.querySelector('input');
+          targetDiv.style.display = radioButton.checked ? '' : 'none';
+          if (!radioButton.checked) {
+            targetField.value = '';
+            if (['mediaUrl', 'transcriptUrl'].includes(targetField.name)) {
+              url.searchParams.delete(targetField.name);
+              window.history.replaceState(null, null, url);
+            }
+          }
+        });
+      }
+      
+      
+      // -------- EVENT LISTENERS --------
+      
+      form.addEventListener('submit', (event) => {
+        loadPreview();
+        event.preventDefault();
+      });
+      
+      radioButtons.forEach((radioButton) => {
+        radioButton.addEventListener('change', setFieldVisibility);
+      });
+      
+      audioPlayer.addEventListener('play', scheduleNextCues);
+      audioPlayer.addEventListener('timeupdate', scheduleNextCues);
+      
+      audioPlayer.addEventListener('play', (event) => document.body.dataset.playing = 'true');
+      audioPlayer.addEventListener('pause', (event) => document.body.dataset.playing = 'false');
+      
+      
+      // -------- INITIAL LOAD --------
+      
+      setFieldVisibility();
+      loadPreview();
+      
+    </script>
+  </body>
+</html>

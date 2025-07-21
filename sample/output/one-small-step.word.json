@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "_": "Generated 2025-07-20 by Text to Timestamps (https://github.com/samuelbradshaw/text-to-timestamps)", 
+    "title": "One Small Step", 
+    "slug": "one-small-step", 
+    "lang": "en"
+  }, 
+  "segments": [
+    {
+      "text": "OK,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 0.44, 
+      "endTime": 0.46
+    }, 
+    {
+      "text": "I’m", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 0.46, 
+      "endTime": 0.54
+    }, 
+    {
+      "text": "going", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 0.54, 
+      "endTime": 0.64
+    }, 
+    {
+      "text": "to", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 0.64, 
+      "endTime": 0.76
+    }, 
+    {
+      "text": "step", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 0.76, 
+      "endTime": 0.88
+    }, 
+    {
+      "text": "off", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 0.88, 
+      "endTime": 1.16
+    }, 
+    {
+      "text": "the", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 1.16, 
+      "endTime": 1.34
+    }, 
+    {
+      "text": "LM", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 1.34, 
+      "endTime": 1.52
+    }, 
+    {
+      "text": "now.", 
+      "prefix": "", 
+      "suffix": "\n", 
+      "startTime": 1.52, 
+      "endTime": 1.74
+    }, 
+    {
+      "text": "That’s", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 3.38, 
+      "endTime": 4.52
+    }, 
+    {
+      "text": "one", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 4.52, 
+      "endTime": 4.72
+    }, 
+    {
+      "text": "small", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 4.72, 
+      "endTime": 5.28
+    }, 
+    {
+      "text": "step", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 5.28, 
+      "endTime": 5.7
+    }, 
+    {
+      "text": "for", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 5.7, 
+      "endTime": 6.06
+    }, 
+    {
+      "text": "a", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 6.06, 
+      "endTime": 6.18
+    }, 
+    {
+      "text": "man,", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 6.18, 
+      "endTime": 6.44
+    }, 
+    {
+      "text": "one", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 7.84, 
+      "endTime": 9.8
+    }, 
+    {
+      "text": "giant", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 9.8, 
+      "endTime": 10.88
+    }, 
+    {
+      "text": "leap", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 10.88, 
+      "endTime": 11.2
+    }, 
+    {
+      "text": "for", 
+      "prefix": "", 
+      "suffix": " ", 
+      "startTime": 11.2, 
+      "endTime": 11.56
+    }, 
+    {
+      "text": "mankind.", 
+      "prefix": "", 
+      "suffix": "", 
+      "startTime": 11.56, 
+      "endTime": 11.74
+    }
+  ]
+}
