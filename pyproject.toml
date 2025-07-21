@@ -11,7 +11,7 @@ description = "Python and command-line utility for aligning audio to a transcrip
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
-keywords = ["python", "command line", "machine learning", "transcription", "subtitles", "captioning", "speech to text", "speech recognition", "forced alignment", "audio", "timestamps", "karaoke", "batch processing", "json", "csv", "webvtt", "mlx", "mps"]
+keywords = ["python", "command line", "machine learning", "transcription", "subtitles", "captioning", "speech to text", "speech recognition", "forced alignment", "karaoke", "batch processing", "webvtt", "mlx", "mps"]
 classifiers = [
   "Programming Language :: Python :: 3",
 ]
