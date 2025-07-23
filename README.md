@@ -66,6 +66,8 @@ Two functions are available via command line: `process` and `process_batch`.
 ---
 **`process`**
 
+Processes a given audio file from start to finish, including voice detection, transcription, and/or alignment (as specified in the config), and outputs a CSV, JSON, or WebVTT file with timestamp data.
+
 **--job_id** – Required. A number or string that represents the processing task. This will be used in the output filename. If you are processing several audio files, each job ID should be unique to avoid naming conflicts. Examples: "1-corinthians-13", "dQw4w9WgXcQ", "My Cool Song", "25"
 
 **--lang** – Required. BCP 47 language tag for the content being processed. Examples: "en", "fr", "ceb"
@@ -98,6 +100,8 @@ Examples:
 
 ---
 **`process_batch`**
+
+Processes a batch of audio files from start to finish, including voice detection, transcription, and/or alignment (as specified in the config), using a CSV input file. Outputs CSV, JSON, or WebVTT files with timestamp data.
 
 **--input_csv** – Required. File path to a CSV (or TSV) input file, where each row is a processing task. Example: [sample-input.tsv](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/sample/sample-input.tsv)
 
@@ -209,7 +213,7 @@ Downloads or copies the audio to the workfiles directory, converts it to WAV, an
 
 **workfiles_directory** – Required. Path to a folder where Text to Timestamps can copy or download audio files for processing.
 
-**voice_isolation_method** – Optional. Method for voice isolation or stem separation. Default: None.
+**voice_isolation_method** – Optional. Method for voice isolation or stem separation. Supported voice isolation methods can be found in [utils.py](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/src/text_to_timestamps/utils.py). Default: None.
 
 **force** – Optional. Whether previously-processed files in the workfiles directory with the same filename should be overwritten (True) or skipped (False). When set to True, media will be downloaded or copied into the workfiles directory each time the script runs. Default: False.
 
@@ -218,7 +222,7 @@ Downloads or copies the audio to the workfiles directory, converts it to WAV, an
 
 Transcribes a given audio file (speech to text), using the specified transcription method. Returns a dict with the transcribed text, timestamped words (if applicable), and full transcription data (varies depending on the transcription method).
 
-**method** – Required. Method for transcription.
+**method** – Required. Method for transcription. Supported transcribe methods can be found in [utils.py](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/src/text_to_timestamps/utils.py).
 
 **audio_path** – Required. File path to the audio file.
 
@@ -237,7 +241,7 @@ Transcribes a given audio file (speech to text), using the specified transcripti
 
 Breaks up a transcript into individual timestamped words, using the specified alignment method. Returns a list of timestamped words.
 
-**method** – Required. Method for alignment.
+**method** – Required. Method for alignment. Supported alignment methods can be found in [utils.py](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/src/text_to_timestamps/utils.py).
 
 **audio_path** – Required. File path to the audio file.
 
@@ -319,7 +323,7 @@ output_to_file(job_id, sorted_words, output_directory, output_config = output_co
 
 When using the high-level `process()` and `process_batch()` functions, configuration options can be passed in as a JSON file path, a JSON string, or (Python only) a Python dict. Any options that aren't set will fall back to [default config](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/src/text_to_timestamps/default_config.json) values.
 
-`process_batch()` also accepts configuration options as columns in the CSV input (for example, adding a column `general.voice_isolation_method` allows you to specify a different voice isolation setting for each row. Options in the CSV take priority over JSON configuration. See [sample-input.tsv](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/sample/sample-input.tsv) for an example.
+`process_batch()` also accepts configuration options as columns in the CSV input (for example, adding a column `general.voice_isolation_method` allows you to specify a different voice isolation setting for each row). Options in the CSV take priority over JSON configuration. See [sample-input.tsv](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/sample/sample-input.tsv) for an example.
 
 The lower-level functions `prepare()`, `transcribe()`, `get_words()`, `sort_words()`, and `output_to_file()` are configured by passing in arguments directly, rather than relying on global configuration options.
 
