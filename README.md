@@ -11,7 +11,7 @@ Example output files can be found in the [sample output](https://samuelbradshaw.
 
 - [Installation](#installation)
     - [Prerequisites](#prerequisites)
-    - [Install via PyPI](#install-via-pypi)
+    - [Install with pip](#install-with-pip)
     - [For local development](#for-local-development)
 - [Usage](#usage)
     - [Command line](#command-line)
@@ -29,13 +29,13 @@ Text to Timestamps was tested on a Mac with Apple silicon, but it should work on
 - Python 3.10, 3.11, or 3.12
 - Homebrew package manager (or an equivalent, if not on macOS)
 
-### <a name="install-via-pypi"></a>Install via PyPI
+### <a name="install-with-pip"></a>Install with pip
 
 This is the simplest way to install Text to Timestamps:
 
 ```bash
 brew install ffmpeg sound-touch rust
-pip install text-to-timestamps
+pip install git+https://github.com/samuelbradshaw/text-to-timestamps
 ```
 
 ### <a name="for-local-development"></a>For local development
