@@ -208,16 +208,16 @@ def parse_config(config, **config_args):
         if isinstance(value, str):
           if value.lower().strip() in ['none', 'null', 'nil', 'na', 'n/a', ' ', '']:
             value = None
-          elif value in integer_fields:
+          elif key in integer_fields:
             value = int(value)
-          elif value in float_fields:
+          elif key in float_fields:
             value = float(value)
-          elif value in boolean_fields:
+          elif key in boolean_fields:
             if any(val in value.lower() for val in ['1', 't', 'y']):
               value = True
             elif any(val in value.lower() for val in ['0', 'f', 'n']):
               value = False
-          elif value in list_fields:
+          elif key in list_fields:
             value = [val.strip() for val in value.lower().replace(';', ',').split(',')]
         
         custom_config[category][key] = value
