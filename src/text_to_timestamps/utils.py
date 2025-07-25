@@ -206,7 +206,7 @@ def parse_config(config, **config_args):
         
         # Convert string values to correct data types
         if isinstance(value, str):
-          if value.lower().strip() in ['none', 'null', 'nil', 'na', 'n/a', ' ', '']:
+          if value.lower().strip() in ['none', 'null', 'nil', 'na', 'n/a', '']:
             value = None
           elif key in integer_fields:
             value = int(value)
@@ -218,8 +218,9 @@ def parse_config(config, **config_args):
             elif any(val in value.lower() for val in ['0', 'f', 'n']):
               value = False
           elif key in list_fields:
-            value = [val.strip() for val in value.lower().replace(';', ',').split(',')]
-        
+            translation_table = str.maketrans(';', ',', '[\'"]')
+            value = value.translate(translation_table).lower()
+            value = [val.strip() for val in value.split(',')]
         custom_config[category][key] = value
   
   # Update default config with custom config values
