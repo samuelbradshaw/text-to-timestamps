@@ -2,7 +2,7 @@
 
 **Text to Timestamps** (previously Text to VTT) is a Python package and command-line utility for aligning audio to a transcript. It can provide block, phrase, and/or word-level timestamps for an existing transcript or a generated transcript.
 
-This tool provides a single interface for interacting with a wide variety of related open-source machine learning libraries. Tasks can be processed individually, or in bulk with CSV input. Timestamps can be output in CSV, JSON, or WebVTT formats.
+This tool provides a consistent interface for interacting with a variety of open-source libraries that specialize in voice isolation, transcription, and forced alignment (complete list in [utils.py](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/src/text_to_timestamps/utils.py)). Tasks can be processed individually, or in bulk with CSV input. Timestamps can be output in CSV, JSON, or WebVTT formats.
 
 Example output files can be found in the [sample output](https://samuelbradshaw.github.io/text-to-timestamps/sample/output) folder in this repository. There is also a [Timestamps Preview](https://samuelbradshaw.github.io/text-to-timestamps/sample/preview.html) page for visualizing and validating the accuracy of the output.
 
@@ -74,7 +74,7 @@ Processes a given audio file from start to finish, including voice detection, tr
 
 **--audio** – Required. URL or file path to the audio file to be processed. If a URL is provided, the video will be downloaded. Several file formats are supported, including WAV, MP3, etc. Video MP4 files are also supported (but not YouTube URLs).
 
-**--transcript** – Optional. File path or string containing an existing transcript of the audio in plain text format. If this is not provided, Text to Transcript will attempt to generate a transcript. Paragraphs should be separated with two line breaks. For convenience, the escape sequence "\n" will be converted to a line break on import.
+**--transcript** – Optional. File path or string containing an existing transcript of the audio in plain text format. Paragraphs should be separated with two line breaks. For convenience, the escape sequence "\n" will be converted to a line break on import. If a transcript is not provided, Text to Transcript will generate a transcript.
 
 **--config** – Optional. File path or JSON string with configuration options. If providing a JSON string, it must be surrounded by single quotes. Any single quotes or new lines in the JSON string will need to be escaped. Config options can also be passed in as separate arguments. Any config options that aren't specified will fall back to [default config](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/src/text_to_timestamps/default_config.json) values. See "Configuration options" below for a description of each option. Example: [sample-config.json](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/sample/sample-config.json)
 
@@ -133,7 +133,7 @@ Processes a given audio file from start to finish, including voice detection, tr
 
 **audio** – Required. URL or file path to the audio file to be processed. If a URL is provided, the video will be downloaded. Several file formats are supported, including WAV, MP3, etc. Video MP4 files are also supported (but not YouTube URLs).
 
-**transcript** – Optional. File path or string containing an existing transcript of the audio in plain text format. If this is not provided, Text to Transcript will attempt to generate a transcript. Paragraphs should be separated with two line breaks. For convenience, the escape sequence "\n" will be converted to a line break on import.
+**transcript** – Optional. File path or string containing an existing transcript of the audio in plain text format. Paragraphs should be separated with two line breaks. For convenience, the escape sequence "\n" will be converted to a line break on import. If a transcript is not provided, Text to Transcript will generate a transcript.
 
 **config** – Optional. File path, JSON string, or Python dict with configuration options. Any config options that aren't specified will fall back to [default config](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/src/text_to_timestamps/default_config.json) values. See "Configuration options" below for a description of each option. Example: [sample-config.json](https://github.com/samuelbradshaw/text-to-timestamps/blob/main/sample/sample-config.json)
 
