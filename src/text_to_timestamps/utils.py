@@ -1,19 +1,4 @@
-# Third-party libraries
-import os
-import sys
-import json
-import copy
-
-# Third-party libraries
-import numpy as np
-from huggingface_hub import hf_hub_download, try_to_load_from_cache
-import torch
-import librosa
-
-
-default_config_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'default_config.json')
-with open(default_config_path, 'r', encoding = 'utf-8') as f:
-  default_config = json.load(f)
+# -------- VOICE ISOLATION --------
 
 supported_voice_isolation_methods = {
   'audio-separator': 'Audio Separator', # https://github.com/nomadkaraoke/python-audio-separator
@@ -25,6 +10,9 @@ supported_voice_isolation_methods = {
   # Not implemented due to conflicting dependencies or other complications
 #   'spleeter': 'Spleeter', # https://github.com/deezer/spleeter
 }
+
+
+# -------- TRANSCRIPTION --------
 
 supported_transcribe_methods = {
   'distil-whisper-mlx': 'distil-whisper (MLX)', # https://huggingface.co/mlx-community/distil-whisper-large-v3
@@ -60,6 +48,9 @@ supported_transcribe_methods = {
 #   'paddlespeech': 'PaddleSpeech', # https://github.com/PaddlePaddle/PaddleSpeech
 }
 
+
+# -------- FORCED ALIGNMENT --------
+
 supported_align_methods = {
   'forcealign-align': 'ForceAlign', # https://github.com/lukerbs/forcealign
   'stable-ts-align': 'stable-ts', # https://github.com/jianfch/stable-ts
@@ -76,6 +67,25 @@ supported_align_methods = {
 #   'montreal-forced-aligner-align': 'Montreal Forced Aligner', # https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner
 #   'timething-align': 'Timething', # https://github.com/feldberlin/timething
 }
+
+
+# ------------------------------------------
+
+# Python standard libraries
+import os
+import sys
+import json
+import copy
+
+# Third-party libraries
+import numpy as np
+from huggingface_hub import hf_hub_download, try_to_load_from_cache
+import torch
+import librosa
+
+default_config_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'default_config.json')
+with open(default_config_path, 'r', encoding = 'utf-8') as f:
+  default_config = json.load(f)
 
 def get_model_name(method, model_size):
   model_map = {
