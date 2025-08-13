@@ -42,8 +42,9 @@ def transcribe_transformers(method, audio_path, model_name, lang = 'en', lang_fb
     
     result['data'] = pipe(audio_path)
     result['text'] = result['data']['text'].strip()
-    for word in result['data']['chunks']:
-      result['words'].append({ 'text': word['text'].strip(), 'start': word['timestamp'][0], 'end': word['timestamp'][1] })
+    if word_timestamps:
+      for word in result['data']['chunks']:
+        result['words'].append({ 'text': word['text'].strip(), 'start': word['timestamp'][0], 'end': word['timestamp'][1] })
   
   
   # Distil-Whisper (Transformers)
@@ -218,7 +219,8 @@ def transcribe_transformers(method, audio_path, model_name, lang = 'en', lang_fb
     
     result['data'] = pipe(audio_path)
     result['text'] = result['data']['text'].strip()
-    for word in result['data']['chunks']:
-      result['words'].append({ 'text': word['text'].strip(), 'start': word['timestamp'][0], 'end': word['timestamp'][1] })
+    if word_timestamps:
+      for word in result['data']['chunks']:
+        result['words'].append({ 'text': word['text'].strip(), 'start': word['timestamp'][0], 'end': word['timestamp'][1] })
   
   return result

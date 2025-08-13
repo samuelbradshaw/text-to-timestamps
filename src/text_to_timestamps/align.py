@@ -20,7 +20,7 @@ def get_words(method, audio_path, transcript, lang = 'en', model_size = 'small',
     text_to_timestamps.utils.write(f'Error: Alignment method "{method}" is not supported\n', styles = ['red'], is_error = True)
     return sys.exit(1)
   
-  method_name = text_to_timestamps.utils.supported_align_methods[method]
+  method_name = text_to_timestamps.utils.supported_align_methods[method]['name']
   if not method_name:
     return {}
   
@@ -28,7 +28,9 @@ def get_words(method, audio_path, transcript, lang = 'en', model_size = 'small',
 
   device = text_to_timestamps.utils.get_best_available_device(method)
   compute_type = 'int8' if device == 'cpu' else 'float16'
-  model_name = model_name or text_to_timestamps.utils.get_model_name(method, model_size)
+  cached_model = cached_align_models.get(method, {}).get(model_size or model_name, {}).get(lang)
+  if not cached_model:
+    model_name = model_name or text_to_timestamps.utils.get_model_name(method, model_size)
   audio_duration = librosa.get_duration(path = audio_path)
   
   words = []
@@ -102,7 +104,7 @@ def get_words(method, audio_path, transcript, lang = 'en', model_size = 'small',
   # stable-ts
   if method == 'stable-ts-align':
     import stable_whisper
-    model = stable_whisper.load_model(model_name, device = device)
+    model = cached_model or stable_whisper.load_model(model_name, device = device)
     data = model.align(audio_path, cleaned_transcript, language = lang, original_split = True, vad = False)
     for segment in data.to_dict()['segments']:
       for word in segment['words']:
@@ -111,7 +113,7 @@ def get_words(method, audio_path, transcript, lang = 'en', model_size = 'small',
   # stable-ts (faster-whisper)
   if method == 'stable-ts-faster-whisper-align':
     import stable_whisper
-    model = stable_whisper.load_faster_whisper(model_name, device = device)
+    model = cached_model or stable_whisper.load_faster_whisper(model_name, device = device)
     data = model.align(audio_path, cleaned_transcript, language = lang, original_split = True, vad = False)
     for segment in data.to_dict()['segments']:
       for word in segment['words']:
@@ -120,7 +122,7 @@ def get_words(method, audio_path, transcript, lang = 'en', model_size = 'small',
   # stable-ts (MLX Whisper)
   if method == 'stable-ts-mlx-whisper-align':
     import stable_whisper
-    model = stable_whisper.load_mlx_whisper(model_name, device = device)
+    model = cached_model or stable_whisper.load_mlx_whisper(model_name, device = device)
     data = model.align(audio_path, cleaned_transcript, language = lang, original_split = True, vad = False)
     for segment in data.to_dict()['segments']:
       for word in segment['words']:
@@ -146,7 +148,22 @@ def get_words(method, audio_path, transcript, lang = 'en', model_size = 'small',
     for word in data['word_segments']:
       words.append({ 'text': word['word'].strip(), 'start': float(word['start']), 'end': float(word['end']) })
   
+  # Cache model for speed when batch processing
+  if model:
+    model_key = model_size or model_name
+    if not method in cached_align_models:
+      cached_align_models[method] = {}
+    if not model_key in cached_align_models[method]:
+      cached_align_models[method][model_key] = {}
+    cached_align_models[method][model_key][lang] = model
+  
   return words
+
+
+# Clear cached models
+cached_align_models = {}
+def clear_cached_align_models():
+  cached_align_models = {}
 
 
 # Align timestamped words to transcript more exactly
@@ -233,3 +250,4 @@ def sort_words(unsorted_words, transcript, output_config = {}):
     'wordsByBlock': dict(words_by_block),
     'wordsByPhrase': dict(words_by_phrase),
   }
+  

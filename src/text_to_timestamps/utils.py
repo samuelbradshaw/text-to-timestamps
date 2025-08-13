@@ -1,71 +1,296 @@
 # -------- VOICE ISOLATION --------
 
 supported_voice_isolation_methods = {
-  'audio-separator': 'Audio Separator', # https://github.com/nomadkaraoke/python-audio-separator
-  'deepfilternet': 'DeepFilterNet', # https://github.com/Rikorose/DeepFilterNet
-  'demucs': 'Demucs', # https://github.com/adefossez/demucs
-  'noisereduce': 'noisereduce', # https://github.com/timsainb/noisereduce
-  'open-unmix': 'Open-Unmix', # https://github.com/sigsep/open-unmix-pytorch
+  'audio-separator': {
+    'name': 'Audio Separator',
+    'url': 'https://github.com/nomadkaraoke/python-audio-separator',
+    'license': 'MIT',
+    'pythonPackage': 'audio_separator',
+  },
+  'deepfilternet': {
+    'name': 'DeepFilterNet',
+    'url': 'https://github.com/Rikorose/DeepFilterNet',
+    'license': 'MIT',
+    'pythonPackage': 'df',
+  },
+  'demucs': {
+    'name': 'Demucs',
+    'url': 'https://github.com/adefossez/demucs',
+    'license': 'MIT',
+    'pythonPackage': 'demucs',
+  },
+  'noisereduce': {
+    'name': 'noisereduce',
+    'url': 'https://github.com/timsainb/noisereduce',
+    'license': 'MIT',
+    'pythonPackage': 'noisereduce',
+  },
+  'open-unmix': {
+    'name': 'Open-Unmix',
+    'url': 'https://github.com/sigsep/open-unmix-pytorch',
+    'license': 'MIT',
+    'pythonPackage': 'openunmix',
+  },
   
   # Not implemented due to conflicting dependencies or other complications
-#   'spleeter': 'Spleeter', # https://github.com/deezer/spleeter
+#   'spleeter': {
+#     'name': 'Spleeter',
+#     'url': 'https://github.com/deezer/spleeter,
+#     'license': 'MIT',
+#     'pythonPackage': 'spleeter',
+#   }
 }
 
 
 # -------- TRANSCRIPTION --------
 
 supported_transcribe_methods = {
-  'distil-whisper-mlx': 'distil-whisper (MLX)', # https://huggingface.co/mlx-community/distil-whisper-large-v3
-  'faster-whisper': 'faster-whisper', # https://github.com/SYSTRAN/faster-whisper
-  'forcealign': 'ForceAlign', # https://github.com/lukerbs/forcealign
-  'parakeet-mlx': 'Parakeet MLX', # https://github.com/senstella/parakeet-mlx
-  'pywhispercpp': 'pywhispercpp', # https://github.com/absadiki/pywhispercpp
-  'stable-ts': 'stable-ts', # https://github.com/jianfch/stable-ts
-  'stable-ts-faster-whisper': 'stable-ts (faster-whisper)', # https://github.com/jianfch/stable-ts
-  'stable-ts-mlx-whisper': 'stable-ts (MLX Whisper)', # https://github.com/jianfch/stable-ts
-  'whisper-jax': 'Whisper JAX', # https://github.com/sanchit-gandhi/whisper-jax
-  'whisper-mlx': 'Whisper (MLX)', # https://github.com/ml-explore/mlx-examples/tree/main/whisper
-  'whisper-mps': 'whisper-mps', # https://github.com/AtomGradient/whisper-mps
-  'whisper-openai': 'Whisper (OpenAI)', # https://github.com/openai/whisper
-  'whisper-timestamped': 'whisper-timestamped', # https://github.com/linto-ai/whisper-timestamped
-  'whispers2t': 'WhisperS2T', # https://github.com/shashikg/WhisperS2T
-  'whisperx': 'WhisperX', # https://github.com/m-bain/whisperX
+  'distil-whisper-mlx': {
+    'name': 'distil-whisper (MLX)',
+    'url': 'https://huggingface.co/mlx-community/distil-whisper-large-v3',
+    'license': 'MIT',
+    'pythonPackage': 'mlx_whisper',
+  },
+  'faster-whisper': {
+    'name': 'faster-whisper',
+    'url': 'https://github.com/SYSTRAN/faster-whisper',
+    'license': 'MIT',
+    'pythonPackage': 'faster_whisper',
+  },
+  'forcealign': {
+    'name': 'ForceAlign',
+    'url': 'https://github.com/lukerbs/forcealign',
+    'license': 'MIT',
+    'pythonPackage': 'forcealign',
+  },
+  'lhotse': {
+    'name': 'Lhotse',
+    'url': 'https://github.com/lhotse-speech/lhotse',
+    'license': 'Apache-2.0',
+    'pythonPackage': 'lhotse',
+  },
+  'parakeet-mlx': {
+    'name': 'Parakeet MLX',
+    'url': 'https://github.com/senstella/parakeet-mlx',
+    'license': 'Apache-2.0',
+    'pythonPackage': 'parakeet_mlx',
+  },
+  'pywhispercpp': {
+    'name': 'pywhispercpp',
+    'url': 'https://github.com/absadiki/pywhispercpp',
+    'license': 'MIT',
+    'pythonPackage': 'pywhispercpp',
+  },
+  'stable-ts': {
+    'name': 'stable-ts',
+    'url': 'https://github.com/jianfch/stable-ts',
+    'license': 'MIT',
+    'pythonPackage': 'stable-ts',
+  },
+  'stable-ts-faster-whisper': {
+    'name': 'stable-ts (faster-whisper)',
+    'url': 'https://github.com/jianfch/stable-ts',
+    'license': 'MIT',
+    'pythonPackage': 'stable-ts',
+  },
+  'stable-ts-mlx-whisper': {
+    'name': 'stable-ts (MLX Whisper)',
+    'url': 'https://github.com/jianfch/stable-ts',
+    'license': 'MIT',
+    'pythonPackage': 'stable-ts',
+  },
+  'whisper-jax': {
+    'name': 'Whisper JAX',
+    'url': 'https://github.com/JnJarvis/whisper-jax',
+    'license': 'Apache-2.0',
+    'pythonPackage': 'whisper_jax',
+  },
+  'whisper-mlx': {
+    'name': 'Whisper (MLX)',
+    'url': 'https://github.com/ml-explore/mlx-examples/tree/main/whisper',
+    'license': 'MIT',
+    'pythonPackage': 'mlx_whisper',
+  },
+  'whisper-mps': {
+    'name': 'whisper-mps',
+    'url': 'https://github.com/AtomGradient/whisper-mps',
+    'license': 'MIT',
+    'pythonPackage': 'whisper_mps',
+  },
+  'whisper-openai': {
+    'name': 'Whisper (OpenAI)',
+    'url': 'https://github.com/openai/whisper',
+    'license': 'MIT',
+    'pythonPackage': 'openai-whisper',
+  },
+  'whisper-timestamped': {
+    'name': 'whisper-timestamped',
+    'url': 'https://github.com/linto-ai/whisper-timestamped',
+    'license': 'AGPL-3.0',
+    'pythonPackage': 'whisper_timestamped',
+  },
+  'whispers2t': {
+    'name': 'WhisperS2T',
+    'url': 'https://github.com/shashikg/WhisperS2T',
+    'license': 'MIT',
+    'pythonPackage': 'whisper-s2t',
+  },
+  'whisperx': {
+    'name': 'WhisperX',
+    'url': 'https://github.com/m-bain/whisperX',
+    'license': 'BSD-2-Clause',
+    'pythonPackage': 'whisperx',
+  },
   # Tranformers
-  'crisperwhisper-transformers': 'CrisperWhisper (Transformers)', # https://github.com/nyrahealth/CrisperWhisper
-  'distil-whisper-transformers': 'Distil-Whisper (Transformers)', # https://github.com/huggingface/distil-whisper
-  'granite-speech-transformers': 'Granite Speech (Transformers)', # https://github.com/ibm-granite/granite-speech-models
-  'liteasr-transformers': 'LiteASR (Transformers)', # https://github.com/efeslab/LiteASR
-  'lhotse': 'Lhotse', # https://github.com/lhotse-speech/lhotse
-  'mms-transformers': 'MMS (Transformers)', # https://github.com/facebookresearch/fairseq/tree/main/examples/mms
-  'seamlessm4t-transformers': 'SeamlessM4T (Transformers)', # https://github.com/facebookresearch/seamless_communication
-  'whisper-transformers': 'Whisper (Transformers)', # https://huggingface.co/docs/transformers/en/model_doc/whisper
+  'crisperwhisper-transformers': {
+    'name': 'CrisperWhisper (Transformers)',
+    'url': 'https://github.com/nyrahealth/CrisperWhisper',
+    'license': 'BSD-2-Clause',
+    'pythonPackage': 'transformers',
+  },
+  'distil-whisper-transformers': {
+    'name': 'Distil-Whisper (Transformers)',
+    'url': 'https://github.com/huggingface/distil-whisper',
+    'license': 'MIT',
+    'pythonPackage': 'transformers',
+  },
+  'granite-speech-transformers': {
+    'name': 'Granite Speech (Transformers)',
+    'url': 'https://github.com/ibm-granite/granite-speech-models',
+    'license': 'Apache-2.0',
+    'pythonPackage': 'transformers',
+  },
+  'liteasr-transformers': {
+    'name': 'LiteASR (Transformers)',
+    'url': 'https://github.com/efeslab/LiteASR',
+    'license': 'Apache-2.0',
+    'pythonPackage': 'transformers',
+  },
+  'mms-transformers': {
+    'name': 'MMS (Transformers)',
+    'url': 'https://github.com/facebookresearch/fairseq/tree/main/examples/mms',
+    'license': 'MIT',
+    'pythonPackage': 'transformers',
+  },
+  'seamlessm4t-transformers': {
+    'name': 'SeamlessM4T (Transformers)',
+    'url': 'https://github.com/facebookresearch/seamless_communication',
+    'license': 'CC BY-NC 4.0',
+    'pythonPackage': 'transformers',
+  },
+  'whisper-transformers': {
+    'name': 'Whisper (Transformers)',
+    'url': 'https://huggingface.co/docs/transformers/en/model_doc/whisper',
+    'license': 'Apache-2.0',
+    'pythonPackage': 'transformers',
+  },
   # Kyutai
-  'kyutai-stt': 'Kyutai STT', # https://github.com/kyutai-labs/delayed-streams-modeling
-  'kyutai-stt-mlx': 'Kyutai STT (MLX)', # https://github.com/kyutai-labs/delayed-streams-modeling
+  'kyutai-stt': {
+    'name': 'Kyutai STT',
+    'url': 'https://github.com/kyutai-labs/delayed-streams-modeling',
+    'license': 'CC-BY 4.0',
+    'pythonPackage': 'moshi',
+  },
+  'kyutai-stt-mlx': {
+    'name': 'Kyutai STT (MLX)',
+    'url': 'https://github.com/kyutai-labs/delayed-streams-modeling',
+    'license': 'CC-BY 4.0',
+    'pythonPackage': 'moshi-mlx',
+  },
   
   # Not implemented due to conflicting dependencies or other complications
-#   'easymms': 'EasyMMS', # https://github.com/absadiki/easymms
-#   'paddlespeech': 'PaddleSpeech', # https://github.com/PaddlePaddle/PaddleSpeech
+#   'easymms': {
+#     'name': 'EasyMMS',
+#     'url': 'https://github.com/absadiki/easymms',
+#     'license': 'CC BY-NC-ND 4.0',
+#     'pythonPackage': 'easymms',
+#   },
+#   'paddlespeech': {
+#     'name': 'PaddleSpeech',
+#     'url': 'https://github.com/PaddlePaddle/PaddleSpeech',
+#     'license': 'Apache-2.0',
+#     'pythonPackage': 'paddlespeech',
+#   },
 }
 
 
 # -------- FORCED ALIGNMENT --------
 
 supported_align_methods = {
-  'forcealign-align': 'ForceAlign', # https://github.com/lukerbs/forcealign
-  'stable-ts-align': 'stable-ts', # https://github.com/jianfch/stable-ts
-  'stable-ts-faster-whisper-align': 'stable-ts (faster-whisper)', # https://github.com/jianfch/stable-ts
-  'stable-ts-mlx-whisper-align': 'stable-ts (MLX Whisper)', # https://github.com/jianfch/stable-ts
-  'whisperx-align': 'WhisperX', # https://github.com/m-bain/whisperX
+  'forcealign-align': {
+    'name': 'ForceAlign',
+    'url': 'https://github.com/lukerbs/forcealign',
+    'license': 'MIT',
+    'pythonPackage': 'forcealign',
+  },
+  'stable-ts-align': {
+    'name': 'stable-ts',
+    'url': 'https://github.com/jianfch/stable-ts',
+    'license': 'MIT',
+    'pythonPackage': 'stable_whisper',
+  },
+  'stable-ts-faster-whisper-align': {
+    'name': 'stable-ts (faster-whisper)',
+    'url': 'https://github.com/jianfch/stable-ts',
+    'license': 'MIT',
+    'pythonPackage': 'stable_whisper',
+  },
+  'stable-ts-mlx-whisper-align': {
+    'name': 'stable-ts (MLX Whisper)',
+    'url': 'https://github.com/jianfch/stable-ts',
+    'license': 'MIT',
+    'pythonPackage': 'stable_whisper',
+  },
+  'whisperx-align': {
+    'name': 'WhisperX',
+    'url': 'https://github.com/m-bain/whisperX',
+    'license': 'BSD-2-Clause',
+    'pythonPackage': 'whisperx',
+  },
   
   # Not implemented due to conflicting dependencies or other complications
-#   'aeneas-align': 'aeneas', # https://github.com/akki2825/aeneas
-#   'afaligner-align': 'afaligner', # https://github.com/r4victor/afaligner
-#   'ctc-forced-aligner-align': 'ctc-forced-aligner', # https://github.com/MahmoudAshraf97/ctc-forced-aligner
-#   'easymms-align': 'EasyMMS', # https://github.com/absadiki/easymms
-#   'lhotse-align': 'Lhotse', # https://github.com/lhotse-speech/lhotse
-#   'montreal-forced-aligner-align': 'Montreal Forced Aligner', # https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner
-#   'timething-align': 'Timething', # https://github.com/feldberlin/timething
+#   'aeneas-align': {
+#     'name': 'aeneas',
+#     'url': 'https://github.com/akki2825/aeneas',
+#     'license': 'AGPL-3.0',
+#     'pythonPackage': 'aeneas',
+#   },
+#   'afaligner-align': {
+#     'name': 'afaligner',
+#     'url': 'https://github.com/r4victor/afaligner',
+#     'license': 'MIT',
+#     'pythonPackage': 'afaligner',
+#   },
+#   'ctc-forced-aligner-align': {
+#     'name': 'ctc-forced-aligner',
+#     'url': 'https://github.com/MahmoudAshraf97/ctc-forced-aligner',
+#     'license': 'BSD',
+#     'pythonPackage': 'ctc_forced_aligner',
+#   },
+#   'easymms-align': {
+#     'name': 'EasyMMS',
+#     'url': 'https://github.com/absadiki/easymms',
+#     'license': 'CC BY-NC-ND 4.0',
+#     'pythonPackage': 'easymms',
+#   },
+#   'lhotse-align': {
+#     'name': 'Lhotse',
+#     'url': 'https://github.com/lhotse-speech/lhotse',
+#     'license': 'Apache-2.0',
+#     'pythonPackage': 'lhotse',
+#   },
+#   'montreal-forced-aligner-align': {
+#     'name': 'Montreal Forced Aligner',
+#     'url': 'https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner',
+#     'license': 'MIT',
+#     'pythonPackage': 'montreal_forced_aligner',
+#   },
+#   'timething-align': {
+#     'name': 'Timething',
+#     'url': 'https://github.com/feldberlin/timething',
+#     'license': 'MIT',
+#     'pythonPackage': 'timething',
+#   },
 }
 
 
@@ -76,6 +301,7 @@ import os
 import sys
 import json
 import copy
+from importlib.metadata import version
 
 # Third-party libraries
 import numpy as np
@@ -282,3 +508,7 @@ def write(text, styles = None, is_error = False):
     sys.stdout.write(f'{styles_start}{text}{styles_end}')
 
 
+def get_method_info(method):
+  info = supported_voice_isolation_methods.get(method) or supported_transcribe_methods.get(method) or supported_align_methods.get(method)
+  info['pythonPackageVersion'] = version(info['pythonPackage'])
+  return info
