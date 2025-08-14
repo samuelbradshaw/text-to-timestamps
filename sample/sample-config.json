@@ -1,8 +1,7 @@
 {
   "general": {
     "workfiles_directory": "sample/workfiles",
-    "output_directory": "sample/output",
-    "voice_isolation_method": "noisereduce"
+    "output_directory": "sample/output"
   },
   "align": {
     "method": "stable-ts-mlx-whisper-align",

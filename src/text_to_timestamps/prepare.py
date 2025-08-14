@@ -64,7 +64,7 @@ def clean(voice_isolation_method, job_id, wav_path, clean_path):
   elif voice_isolation_method == 'deepfilternet':
     from df.enhance import enhance, init_df, load_audio, save_audio
     audio_array, sr = load_audio(wav_path, sr = 48000)
-    model, df_state, _ = init_df()
+    model, df_state = init_df()[:2]
     enhanced = enhance(model, df_state, audio_array)
     save_audio(clean_path, enhanced, df_state.sr())
   

@@ -12,7 +12,7 @@ def main_cli():
   parser.add_argument('--lang', help='BCP 47 language tag. Required when running "process".')
   parser.add_argument('--audio', help='URL or path to audio file. Required when running "process".')
   parser.add_argument('--transcript', help='Path to transcript text file (or text string). Optional. Only applicable when running "process".')
-  parser.add_argument('--csv_input', help='Path to input CSV. Required when running "process_batch".')
+  parser.add_argument('--input_csv', help='Path to input CSV. Required when running "process_batch".')
   parser.add_argument('--config', help='Path to config JSON file (or JSON string). Optional.')
   for category in text_to_timestamps.utils.default_config:
     for key, value in text_to_timestamps.utils.default_config[category].items():
@@ -29,9 +29,9 @@ def main_cli():
       config = args.config,
       **{ key: value for key, value in vars(args).items() if '.' in key },
     )
-  elif args.command == 'process_batch' and args.csv_input:
+  elif args.command == 'process_batch' and args.input_csv:
     result = process_batch(
-      args.csv_input,
+      args.input_csv,
       config = args.config,
       **{ key: value for key, value in vars(args).items() if '.' in key },
     )

@@ -18,6 +18,7 @@ classifiers = [
 requires-python = ">=3.10,<3.13"
 dynamic = ["version"]
 dependencies = [
+  "audio-separator",
   "deepfilternet @ git+https://github.com/benniekiss/DeepFilterNet@update_pyo3#subdirectory=DeepFilterNet",
   "demucs @ git+https://github.com/MahmoudAshraf97/demucs@main",
   "faster-whisper>=1.1.1",
@@ -43,8 +44,8 @@ dependencies = [
   "soundfile>=0.13.1",
   "stable-ts @ git+https://github.com/jianfch/stable-ts@main",
   "tensorflow-io",
-  "torch>=2.7.1",
-  "torchaudio>=2.7.1",
+  "torch>=2.8.0",
+  "torchaudio>=2.8.0",
   "transformers[torch]>=4.35.0",
   "whisper-jax @ git+https://github.com/JnJarvis/whisper-jax@main",
   "whisper-mps @ git+https://github.com/AtomGradient/whisper-mps",

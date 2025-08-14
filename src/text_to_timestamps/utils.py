@@ -5,7 +5,7 @@ supported_voice_isolation_methods = {
     'name': 'Audio Separator',
     'url': 'https://github.com/nomadkaraoke/python-audio-separator',
     'license': 'MIT',
-    'pythonPackage': 'audio_separator',
+    'pythonPackage': 'audio-separator',
   },
   'deepfilternet': {
     'name': 'DeepFilterNet',
@@ -172,12 +172,6 @@ supported_transcribe_methods = {
     'license': 'MIT',
     'pythonPackage': 'transformers',
   },
-  'seamlessm4t-transformers': {
-    'name': 'SeamlessM4T (Transformers)',
-    'url': 'https://github.com/facebookresearch/seamless_communication',
-    'license': 'CC BY-NC 4.0',
-    'pythonPackage': 'transformers',
-  },
   'whisper-transformers': {
     'name': 'Whisper (Transformers)',
     'url': 'https://huggingface.co/docs/transformers/en/model_doc/whisper',
@@ -210,6 +204,12 @@ supported_transcribe_methods = {
 #     'url': 'https://github.com/PaddlePaddle/PaddleSpeech',
 #     'license': 'Apache-2.0',
 #     'pythonPackage': 'paddlespeech',
+#   },
+#   'seamlessm4t-transformers': {
+#     'name': 'SeamlessM4T (Transformers)',
+#     'url': 'https://github.com/facebookresearch/seamless_communication',
+#     'license': 'CC BY-NC 4.0',
+#     'pythonPackage': 'transformers',
 #   },
 }
 
@@ -285,6 +285,12 @@ supported_align_methods = {
 #     'license': 'MIT',
 #     'pythonPackage': 'montreal_forced_aligner',
 #   },
+#   'python-forced-alignment': {
+#     'name': 'Python Forced Alignment',
+#     'url': 'https://github.com/maxrmorrison/pyfoal',
+#     'license': 'MIT',
+#     'pythonPackage': 'pyfoal',
+#   },
 #   'timething-align': {
 #     'name': 'Timething',
 #     'url': 'https://github.com/feldberlin/timething',
@@ -337,6 +343,11 @@ def get_model_name(method, model_size):
     'kyutai-stt-mlx': {
       'large': 'stt-2.6b-en-mlx',
     },
+    'liteasr-transformers': {
+      'small': 'small',
+      'medium': 'medium',
+      'large': 'large-v3',
+    },
     'mms-transformers': {
       'large': 'mms-1b-all',
     },
@@ -363,7 +374,7 @@ def get_model_name(method, model_size):
   }
   
   model_source = method
-  if method in ['faster-whisper', 'liteasr-transformers', 'lhotse', 'pywhispercpp', 'stable-ts', 'stable-ts-align', 'stable-ts-faster-whisper', 'stable-ts-faster-whisper-align', 'stable-ts-mlx-whisper', 'stable-ts-mlx-whisper-align', 'whisper-jax', 'whisper-mps', 'whisper-timestamped', 'whisper-transformers', 'whispers2t', 'whisperx', 'whisperx-align']:
+  if method in ['faster-whisper', 'lhotse', 'pywhispercpp', 'stable-ts', 'stable-ts-align', 'stable-ts-faster-whisper', 'stable-ts-faster-whisper-align', 'stable-ts-mlx-whisper', 'stable-ts-mlx-whisper-align', 'whisper-jax', 'whisper-mps', 'whisper-timestamped', 'whisper-transformers', 'whispers2t', 'whisperx', 'whisperx-align']:
     model_source = 'whisper-openai'
   
   model_name = model_map.get(model_source, {}).get(model_size)
@@ -424,7 +435,10 @@ def parse_config(config, **config_args):
     custom_config = json.loads(config)
   elif isinstance(config, str) and os.path.isfile(config):
     with open(config, 'r', encoding = 'utf-8') as f:
-      custom_config = json.load(f)
+      try:
+        custom_config = json.load(f)
+      except:
+        write(f'Warning: Failed to parse JSON config file\n')
   else:
     write(f'Warning: Invalid config object or path\n')
   

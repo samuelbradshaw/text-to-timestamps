@@ -72,6 +72,7 @@ def transcribe_transformers(method, audio_path, model_name, lang = 'en', lang_fb
   
   
   # Granite Speech (Transformers)
+  # TODO: Out of memory
   elif method == 'granite-speech-transformers':
     speech_granite_processor = AutoProcessor.from_pretrained(f'ibm-granite/{model_name}')
     tokenizer = speech_granite_processor.tokenizer
@@ -141,7 +142,7 @@ def transcribe_transformers(method, audio_path, model_name, lang = 'en', lang_fb
     predicted_ids = model.generate(input_features)
     result['data'] = processor.batch_decode(predicted_ids, skip_special_tokens = True)
     for segment in result['data']:
-      result['text'] += segment + ' '
+      result['text'] += segment['text'] + ' '
     result['text'] = result['text'].strip()
 
 
@@ -174,29 +175,32 @@ def transcribe_transformers(method, audio_path, model_name, lang = 'en', lang_fb
   
   
   # SeamlessM4T (Transformers)
+  # TODO: Blank text
   elif method == 'seamlessm4t-transformers':
-    model = AutoModelForSpeechSeq2Seq.from_pretrained(f'facebook/{model_name}', torch_dtype = compute_type_torch, use_safetensors = True)
-    processor = AutoProcessor.from_pretrained(f'facebook/{model_name}')
-    
-    pipe = pipeline(
-      'automatic-speech-recognition',
-      model = model,
-      tokenizer = processor.tokenizer,
-      feature_extractor = processor.feature_extractor,
-      torch_dtype = compute_type_torch,
-      device = device,
-      framework = 'pt',
-      model_kwargs = {'attn_implementation': attn},
-      chunk_length_s = 30,
-      batch_size = batch_size,
-      ignore_warning = True,
-      generate_kwargs = {'tgt_lang': lang_fb},
-    )
-    
-    result['data'] = pipe(audio_path)
+    pass
+#     model = AutoModelForSpeechSeq2Seq.from_pretrained(f'facebook/{model_name}', torch_dtype = compute_type_torch, use_safetensors = True)
+#     processor = AutoProcessor.from_pretrained(f'facebook/{model_name}')
+#     
+#     if lang_fb in ['afr', 'amh', 'arb', 'ary', 'arz', 'asm', 'azj', 'bel', 'ben', 'bos', 'bul', 'cat', 'ceb', 'ces', 'ckb', 'cmn', 'cmn_Hant', 'cym', 'dan', 'deu', 'ell', 'eng', 'est', 'eus', 'fin', 'fra', 'fuv', 'gaz', 'gle', 'glg', 'guj', 'heb', 'hin', 'hrv', 'hun', 'hye', 'ibo', 'ind', 'isl', 'ita', 'jav', 'jpn', 'kan', 'kat', 'kaz', 'khk', 'khm', 'kir', 'kor', 'lao', 'lit', 'lug', 'luo', 'lvs', 'mai', 'mal', 'mar', 'mkd', 'mlt', 'mni', 'mya', 'nld', 'nno', 'nob', 'npi', 'nya', 'ory', 'pan', 'pbt', 'pes', 'pol', 'por', 'ron', 'rus', 'sat', 'slk', 'slv', 'sna', 'snd', 'som', 'spa', 'srp', 'swe', 'swh', 'tam', 'tel', 'tgk', 'tgl', 'tha', 'tur', 'ukr', 'urd', 'uzn', 'vie', 'yor', 'yue', 'zlm', 'zul']:
+#       pipe = pipeline(
+#         'automatic-speech-recognition',
+#         model = model,
+#         tokenizer = processor.tokenizer,
+#         feature_extractor = processor.feature_extractor,
+#         torch_dtype = compute_type_torch,
+#         device = device,
+#         framework = 'pt',
+#         model_kwargs = {'attn_implementation': attn},
+#         chunk_length_s = 30,
+#         batch_size = batch_size,
+#         ignore_warning = True,
+#         generate_kwargs = {'tgt_lang': lang_fb},
+#       )
+#       result['data'] = pipe(audio_path)
   
   
   # Whisper (Transformers)
+  # TODO: Out of memory
   elif method == 'whisper-transformers':
     model = AutoModelForSpeechSeq2Seq.from_pretrained(f'openai/whisper-{model_name}', torch_dtype = compute_type_torch, use_safetensors = True)
     processor = AutoProcessor.from_pretrained(f'openai/whisper-{model_name}')
