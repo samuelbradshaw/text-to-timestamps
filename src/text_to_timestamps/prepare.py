@@ -107,7 +107,7 @@ def download(url, download_directory, job_id):
   try:
     headers = { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36', }
     with requests.get(url, headers = headers, stream = True) as r:
-      extension = mimetypes.guess_extension(r.headers['Content-Type'])
+      extension = mimetypes.guess_extension(r.headers['Content-Type']) or '.mp3'
       download_path = os.path.join(download_directory, f'{job_id}{extension}')
       with open(download_path, 'wb') as bf:
         for chunk in r.iter_content(chunk_size = 10000):
