@@ -2,6 +2,7 @@
 import os
 import sys
 import csv
+import copy
 
 # Internal imports
 from text_to_timestamps.prepare import prepare
@@ -66,12 +67,13 @@ def process_batch(input_csv, config = None, **config_args):
       audio = row.get('audio')
       transcript = row.get('transcript')
       
+      updated_config_args = copy.copy(config_args)
       for key, value in row.items():
-        if '.' in key and key not in config_args:
-          config_args[key] = value
+        if '.' in key and key not in updated_config_args:
+          updated_config_args[key] = value
       
       text_to_timestamps.utils.write(f'Processing: {job_id} ({rw + 1} of {len(rows)})\n')
-      timing_data = process(job_id, lang, audio, transcript = transcript, config = config, **config_args)
+      timing_data = process(job_id, lang, audio, transcript = transcript, config = config, **updated_config_args)
       timing_data_list.append(timing_data)
   
   return timing_data_list

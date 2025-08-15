@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "_": "Generated 2025-07-20 by Text to Timestamps (https://github.com/samuelbradshaw/text-to-timestamps)", 
-    "title": "One Small Step", 
-    "slug": "one-small-step", 
+    "_": "Generated 2025-08-14 by Text to Timestamps (https://github.com/samuelbradshaw/text-to-timestamps)", 
+    "title": "Come Thou Fount (September 2020)", 
+    "slug": "come-thou-fount-september-2020", 
     "lang": "en"
   }, 
   "segments": [
@@ -10,14 +10,14 @@
       "text": "Come,", 
       "prefix": "1. ", 
       "suffix": " ", 
-      "startTime": 21.86, 
-      "endTime": 21.86
+      "startTime": 22.0, 
+      "endTime": 22.0
     }, 
     {
       "text": "thou", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 22.28, 
+      "startTime": 22.32, 
       "endTime": 22.44
     }, 
     {
@@ -25,69 +25,69 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 22.44, 
-      "endTime": 23.28
+      "endTime": 23.32
     }, 
     {
       "text": "of", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 23.28, 
-      "endTime": 24.4
+      "startTime": 23.9, 
+      "endTime": 24.38
     }, 
     {
       "text": "ev’ry", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 24.4, 
-      "endTime": 26.52
+      "startTime": 24.38, 
+      "endTime": 26.42
     }, 
     {
       "text": "blessing,", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 26.52, 
-      "endTime": 26.52
+      "startTime": 26.42, 
+      "endTime": 26.42
     }, 
     {
       "text": "tune", 
       "prefix": "", 
       "suffix": " ", 
       "startTime": 27.48, 
-      "endTime": 27.64
+      "endTime": 27.62
     }, 
     {
       "text": "my", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 27.64, 
-      "endTime": 28.18
+      "startTime": 27.62, 
+      "endTime": 28.2
     }, 
     {
       "text": "heart", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 28.18, 
-      "endTime": 28.94
+      "startTime": 28.2, 
+      "endTime": 28.92
     }, 
     {
       "text": "to", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 28.94, 
-      "endTime": 29.6
+      "startTime": 29.44, 
+      "endTime": 29.62
     }, 
     {
       "text": "sing", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 29.6, 
-      "endTime": 30.44
+      "startTime": 29.62, 
+      "endTime": 30.46
     }, 
     {
       "text": "thy", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 30.44, 
+      "startTime": 30.46, 
       "endTime": 30.96
     }, 
     {
@@ -95,13 +95,13 @@
       "prefix": "", 
       "suffix": "\n", 
       "startTime": 30.96, 
-      "endTime": 31.4
+      "endTime": 31.34
     }, 
     {
       "text": "Streams", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 32.68, 
+      "startTime": 32.82, 
       "endTime": 33.36
     }, 
     {
@@ -122,7 +122,7 @@
       "text": "never", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 35.54, 
+      "startTime": 35.4, 
       "endTime": 35.98
     }, 
     {
@@ -130,13 +130,13 @@
       "prefix": "", 
       "suffix": "\n", 
       "startTime": 35.98, 
-      "endTime": 37.42
+      "endTime": 37.38
     }, 
     {
       "text": "call", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 38.26, 
+      "startTime": 38.24, 
       "endTime": 38.52
     }, 
     {
@@ -157,14 +157,14 @@
       "text": "of", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 39.94, 
-      "endTime": 40.72
+      "startTime": 40.0, 
+      "endTime": 40.74
     }, 
     {
       "text": "loudest", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 40.72, 
+      "startTime": 40.74, 
       "endTime": 41.6
     }, 
     {
@@ -172,20 +172,20 @@
       "prefix": "", 
       "suffix": "\n", 
       "startTime": 41.6, 
-      "endTime": 42.26
+      "endTime": 41.96
     }, 
     {
       "text": "Teach", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 43.62, 
-      "endTime": 43.86
+      "startTime": 43.6, 
+      "endTime": 43.82
     }, 
     {
       "text": "me", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 43.86, 
+      "startTime": 43.82, 
       "endTime": 44.32
     }, 
     {
@@ -207,27 +207,27 @@
       "prefix": "", 
       "suffix": "\n", 
       "startTime": 46.76, 
-      "endTime": 47.96
+      "endTime": 46.86
     }, 
     {
       "text": "sung", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 48.88, 
-      "endTime": 49.04
+      "startTime": 48.64, 
+      "endTime": 48.88
     }, 
     {
       "text": "by", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 49.04, 
-      "endTime": 49.28
+      "startTime": 48.88, 
+      "endTime": 49.32
     }, 
     {
       "text": "flaming", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 49.28, 
+      "startTime": 49.32, 
       "endTime": 50.48
     }, 
     {
@@ -235,27 +235,27 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 50.48, 
-      "endTime": 51.56
+      "endTime": 51.48
     }, 
     {
       "text": "above.", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 51.56, 
-      "endTime": 53.04
+      "startTime": 51.58, 
+      "endTime": 53.1
     }, 
     {
       "text": "Praise", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 55.78, 
-      "endTime": 56.06
+      "startTime": 56.12, 
+      "endTime": 56.12
     }, 
     {
       "text": "the", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 56.06, 
+      "startTime": 56.12, 
       "endTime": 56.46
     }, 
     {
@@ -263,7 +263,7 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 56.46, 
-      "endTime": 57.18
+      "endTime": 57.12
     }, 
     {
       "text": "I’m", 
@@ -283,14 +283,14 @@
       "text": "upon", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 58.6, 
-      "endTime": 59.64
+      "startTime": 58.76, 
+      "endTime": 59.54
     }, 
     {
       "text": "it,", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 59.64, 
+      "startTime": 59.54, 
       "endTime": 60.34
     }, 
     {
@@ -298,13 +298,13 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 60.8, 
-      "endTime": 61.22
+      "endTime": 61.2
     }, 
     {
       "text": "of", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 61.22, 
+      "startTime": 61.2, 
       "endTime": 61.64
     }, 
     {
@@ -312,48 +312,48 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 61.64, 
-      "endTime": 62.36
+      "endTime": 62.1
     }, 
     {
       "text": "redeeming", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 62.36, 
-      "endTime": 64.1
+      "startTime": 62.1, 
+      "endTime": 64.18
     }, 
     {
       "text": "love.", 
       "prefix": "", 
       "suffix": "\n\n", 
-      "startTime": 64.1, 
-      "endTime": 64.84
+      "startTime": 64.18, 
+      "endTime": 65.0
     }, 
     {
       "text": "Here", 
       "prefix": "2. ", 
       "suffix": " ", 
-      "startTime": 74.82, 
-      "endTime": 74.82
+      "startTime": 74.38, 
+      "endTime": 74.74
     }, 
     {
       "text": "I", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 74.82, 
-      "endTime": 75.18
+      "startTime": 74.76, 
+      "endTime": 75.16
     }, 
     {
       "text": "raise", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 75.18, 
+      "startTime": 75.16, 
       "endTime": 76.38
     }, 
     {
       "text": "my", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 76.38, 
+      "startTime": 76.8, 
       "endTime": 77.14
     }, 
     {
@@ -367,7 +367,7 @@
       "text": "hither", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 79.76, 
+      "startTime": 79.92, 
       "endTime": 80.52
     }, 
     {
@@ -375,41 +375,41 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 80.52, 
-      "endTime": 81.32
+      "endTime": 81.24
     }, 
     {
       "text": "thy", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 81.32, 
-      "endTime": 81.92
+      "startTime": 81.24, 
+      "endTime": 81.96
     }, 
     {
       "text": "help", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 81.92, 
-      "endTime": 82.82
+      "startTime": 81.96, 
+      "endTime": 82.78
     }, 
     {
       "text": "I’m", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 82.82, 
-      "endTime": 83.28
+      "startTime": 82.78, 
+      "endTime": 83.24
     }, 
     {
       "text": "come;", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 83.28, 
-      "endTime": 84.82
+      "startTime": 83.24, 
+      "endTime": 83.78
     }, 
     {
       "text": "And", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 84.9, 
+      "startTime": 84.98, 
       "endTime": 85.3
     }, 
     {
@@ -417,20 +417,20 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 85.3, 
-      "endTime": 85.66
+      "endTime": 85.68
     }, 
     {
       "text": "hope,", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 85.66, 
-      "endTime": 86.38
+      "startTime": 85.68, 
+      "endTime": 86.32
     }, 
     {
       "text": "by", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 86.96, 
+      "startTime": 87.02, 
       "endTime": 87.38
     }, 
     {
@@ -458,7 +458,7 @@
       "text": "safely", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 89.94, 
+      "startTime": 89.92, 
       "endTime": 90.52
     }, 
     {
@@ -466,20 +466,20 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 90.52, 
-      "endTime": 91.28
+      "endTime": 91.26
     }, 
     {
       "text": "arrive", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 91.28, 
-      "endTime": 92.6
+      "startTime": 91.26, 
+      "endTime": 92.68
     }, 
     {
       "text": "at", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 92.6, 
+      "startTime": 92.68, 
       "endTime": 93.26
     }, 
     {
@@ -487,34 +487,34 @@
       "prefix": "", 
       "suffix": "\n", 
       "startTime": 93.26, 
-      "endTime": 93.92
+      "endTime": 94.0
     }, 
     {
       "text": "Jesus", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 95.46, 
-      "endTime": 95.46
+      "startTime": 95.48, 
+      "endTime": 95.48
     }, 
     {
       "text": "sought", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 95.46, 
-      "endTime": 96.56
+      "startTime": 95.48, 
+      "endTime": 96.52
     }, 
     {
       "text": "me", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 96.56, 
-      "endTime": 97.04
+      "startTime": 96.52, 
+      "endTime": 97.08
     }, 
     {
       "text": "when", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 97.04, 
+      "startTime": 97.08, 
       "endTime": 97.84
     }, 
     {
@@ -522,20 +522,20 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 97.84, 
-      "endTime": 98.1
+      "endTime": 98.12
     }, 
     {
       "text": "stranger", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 98.1, 
-      "endTime": 99.08
+      "startTime": 98.12, 
+      "endTime": 99.14
     }, 
     {
       "text": "Wand’ring", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 100.06, 
+      "startTime": 99.96, 
       "endTime": 100.72
     }, 
     {
@@ -543,20 +543,20 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 100.72, 
-      "endTime": 101.22
+      "endTime": 101.28
     }, 
     {
       "text": "the", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 101.22, 
-      "endTime": 102.14
+      "startTime": 101.28, 
+      "endTime": 102.18
     }, 
     {
       "text": "fold", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 102.14, 
+      "startTime": 102.18, 
       "endTime": 102.88
     }, 
     {
@@ -564,20 +564,20 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 102.88, 
-      "endTime": 103.34
+      "endTime": 103.3
     }, 
     {
       "text": "God.", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 103.34, 
+      "startTime": 103.3, 
       "endTime": 104.68
     }, 
     {
       "text": "He,", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 108.0, 
+      "startTime": 108.08, 
       "endTime": 108.44
     }, 
     {
@@ -585,20 +585,20 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 108.6, 
-      "endTime": 108.76
+      "endTime": 108.78
     }, 
     {
       "text": "rescue", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 108.76, 
-      "endTime": 109.88
+      "startTime": 108.78, 
+      "endTime": 109.9
     }, 
     {
       "text": "me", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 109.92, 
+      "startTime": 109.94, 
       "endTime": 110.94
     }, 
     {
@@ -613,13 +613,13 @@
       "prefix": "", 
       "suffix": "\n", 
       "startTime": 111.38, 
-      "endTime": 112.46
+      "endTime": 112.32
     }, 
     {
       "text": "interposed", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 113.42, 
+      "startTime": 113.4, 
       "endTime": 114.62
     }, 
     {
@@ -627,13 +627,13 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 114.62, 
-      "endTime": 115.42
+      "endTime": 115.38
     }, 
     {
       "text": "precious", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 115.42, 
+      "startTime": 115.38, 
       "endTime": 116.4
     }, 
     {
@@ -641,69 +641,69 @@
       "prefix": "", 
       "suffix": "\n\n", 
       "startTime": 116.4, 
-      "endTime": 117.34
+      "endTime": 117.22
     }, 
     {
       "text": "Oh", 
       "prefix": "3. ", 
       "suffix": " ", 
-      "startTime": 122.08, 
-      "endTime": 122.08
+      "startTime": 122.72, 
+      "endTime": 122.72
     }, 
     {
       "text": "to", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 122.08, 
-      "endTime": 123.78
+      "startTime": 134.62, 
+      "endTime": 135.24
     }, 
     {
       "text": "grace,", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 123.78, 
-      "endTime": 123.78
+      "startTime": 135.24, 
+      "endTime": 136.08
     }, 
     {
       "text": "how", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 123.78, 
-      "endTime": 123.78
+      "startTime": 136.34, 
+      "endTime": 136.84
     }, 
     {
       "text": "great", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 123.78, 
-      "endTime": 123.78
+      "startTime": 136.84, 
+      "endTime": 137.52
     }, 
     {
       "text": "a", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 123.78, 
-      "endTime": 123.78
+      "startTime": 137.52, 
+      "endTime": 137.88
     }, 
     {
       "text": "debtor", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 138.1, 
-      "endTime": 139.14
+      "startTime": 137.88, 
+      "endTime": 139.1
     }, 
     {
       "text": "daily", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 139.62, 
-      "endTime": 140.1
+      "startTime": 139.6, 
+      "endTime": 140.06
     }, 
     {
       "text": "I’m", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 140.1, 
+      "startTime": 140.06, 
       "endTime": 141.14
     }, 
     {
@@ -711,55 +711,55 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 141.14, 
-      "endTime": 142.04
+      "endTime": 142.0
     }, 
     {
       "text": "to", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 142.04, 
-      "endTime": 142.82
+      "startTime": 142.0, 
+      "endTime": 142.78
     }, 
     {
       "text": "be.", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 142.82, 
-      "endTime": 143.44
+      "startTime": 142.78, 
+      "endTime": 143.42
     }, 
     {
       "text": "Let", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 144.38, 
+      "startTime": 144.36, 
       "endTime": 144.7
     }, 
     {
       "text": "thy", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 144.7, 
-      "endTime": 145.12
+      "startTime": 144.8, 
+      "endTime": 145.1
     }, 
     {
       "text": "goodness", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 145.12, 
-      "endTime": 146.16
+      "startTime": 145.1, 
+      "endTime": 146.08
     }, 
     {
       "text": "like", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 146.16, 
-      "endTime": 147.14
+      "startTime": 146.08, 
+      "endTime": 147.12
     }, 
     {
       "text": "a", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 147.14, 
+      "startTime": 147.12, 
       "endTime": 147.64
     }, 
     {
@@ -767,55 +767,55 @@
       "prefix": "", 
       "suffix": "\n", 
       "startTime": 147.64, 
-      "endTime": 148.78
+      "endTime": 148.76
     }, 
     {
       "text": "bind", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 149.14, 
-      "endTime": 149.66
+      "startTime": 149.3, 
+      "endTime": 149.64
     }, 
     {
       "text": "my", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 149.66, 
-      "endTime": 150.0
+      "startTime": 149.64, 
+      "endTime": 150.06
     }, 
     {
       "text": "wand’ring", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 150.0, 
-      "endTime": 151.54
+      "startTime": 150.06, 
+      "endTime": 151.52
     }, 
     {
       "text": "heart", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 151.54, 
-      "endTime": 152.14
+      "startTime": 151.52, 
+      "endTime": 152.12
     }, 
     {
       "text": "to", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 152.14, 
-      "endTime": 152.6
+      "startTime": 152.12, 
+      "endTime": 152.52
     }, 
     {
       "text": "thee.", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 152.6, 
-      "endTime": 152.94
+      "startTime": 152.52, 
+      "endTime": 153.04
     }, 
     {
       "text": "Prone", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 154.2, 
+      "startTime": 154.1, 
       "endTime": 154.42
     }, 
     {
@@ -830,20 +830,20 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 154.8, 
-      "endTime": 155.76
+      "endTime": 155.8
     }, 
     {
       "text": "Lord,", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 155.76, 
-      "endTime": 156.82
+      "startTime": 156.6, 
+      "endTime": 156.86
     }, 
     {
       "text": "I", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 157.02, 
+      "startTime": 157.06, 
       "endTime": 157.2
     }, 
     {
@@ -851,27 +851,27 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 157.2, 
-      "endTime": 157.9
+      "endTime": 157.84
     }, 
     {
       "text": "it;", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 157.9, 
-      "endTime": 158.9
+      "startTime": 157.84, 
+      "endTime": 158.42
     }, 
     {
       "text": "prone", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 159.3, 
-      "endTime": 159.3
+      "startTime": 158.98, 
+      "endTime": 159.28
     }, 
     {
       "text": "to", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 159.3, 
+      "startTime": 159.28, 
       "endTime": 159.66
     }, 
     {
@@ -879,41 +879,41 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 159.66, 
-      "endTime": 160.64
+      "endTime": 160.54
     }, 
     {
       "text": "the", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 160.64, 
-      "endTime": 161.28
+      "startTime": 160.54, 
+      "endTime": 161.3
     }, 
     {
       "text": "God", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 161.28, 
-      "endTime": 161.86
+      "startTime": 161.3, 
+      "endTime": 161.84
     }, 
     {
       "text": "I", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 161.86, 
+      "startTime": 161.84, 
       "endTime": 162.22
     }, 
     {
       "text": "love;", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 165.08, 
-      "endTime": 166.24
+      "startTime": 165.16, 
+      "endTime": 165.9
     }, 
     {
       "text": "Here’s", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 169.2, 
+      "startTime": 169.14, 
       "endTime": 169.8
     }, 
     {
@@ -928,13 +928,13 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 170.06, 
-      "endTime": 170.5
+      "endTime": 170.16
     }, 
     {
       "text": "O", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 171.76, 
+      "startTime": 171.74, 
       "endTime": 172.0
     }, 
     {
@@ -942,20 +942,20 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 172.0, 
-      "endTime": 172.46
+      "endTime": 172.44
     }, 
     {
       "text": "and", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 172.46, 
-      "endTime": 172.82
+      "startTime": 172.44, 
+      "endTime": 172.84
     }, 
     {
       "text": "seal", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 173.1, 
+      "startTime": 173.08, 
       "endTime": 173.74
     }, 
     {
@@ -963,13 +963,13 @@
       "prefix": "", 
       "suffix": "\n", 
       "startTime": 173.74, 
-      "endTime": 173.94
+      "endTime": 173.98
     }, 
     {
       "text": "seal", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 174.88, 
+      "startTime": 174.98, 
       "endTime": 175.22
     }, 
     {
@@ -984,34 +984,34 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 175.8, 
-      "endTime": 176.48
+      "endTime": 176.32
     }, 
     {
       "text": "thy", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 176.48, 
-      "endTime": 177.08
+      "startTime": 176.32, 
+      "endTime": 177.16
     }, 
     {
       "text": "courts", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 177.72, 
-      "endTime": 178.02
+      "startTime": 177.62, 
+      "endTime": 178.0
     }, 
     {
       "text": "above.", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 178.02, 
-      "endTime": 178.7
+      "startTime": 178.0, 
+      "endTime": 178.1
     }, 
     {
       "text": "Seal", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 180.46, 
+      "startTime": 180.42, 
       "endTime": 180.9
     }, 
     {
@@ -1019,48 +1019,48 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 180.9, 
-      "endTime": 181.32
+      "endTime": 181.3
     }, 
     {
       "text": "for", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 181.62, 
-      "endTime": 181.92
+      "startTime": 181.84, 
+      "endTime": 181.94
     }, 
     {
       "text": "thy", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 181.92, 
-      "endTime": 182.9
+      "startTime": 181.94, 
+      "endTime": 182.98
     }, 
     {
       "text": "courts", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 182.96, 
-      "endTime": 183.78
+      "startTime": 183.58, 
+      "endTime": 183.84
     }, 
     {
       "text": "above.", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 183.78, 
-      "endTime": 183.9
+      "startTime": 183.84, 
+      "endTime": 184.68
     }, 
     {
       "text": "Here’s", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 194.78, 
-      "endTime": 195.28
+      "startTime": 194.86, 
+      "endTime": 195.22
     }, 
     {
       "text": "my", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 195.28, 
+      "startTime": 195.22, 
       "endTime": 195.48
     }, 
     {
@@ -1068,7 +1068,7 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 195.48, 
-      "endTime": 196.54
+      "endTime": 196.14
     }, 
     {
       "text": "O", 
@@ -1096,27 +1096,27 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 198.74, 
-      "endTime": 199.64
+      "endTime": 199.48
     }, 
     {
       "text": "it,", 
       "prefix": "", 
       "suffix": "\n", 
-      "startTime": 199.64, 
-      "endTime": 200.46
+      "startTime": 199.48, 
+      "endTime": 200.3
     }, 
     {
       "text": "seal", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 201.08, 
-      "endTime": 201.68
+      "startTime": 201.26, 
+      "endTime": 201.64
     }, 
     {
       "text": "it", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 201.68, 
+      "startTime": 201.64, 
       "endTime": 202.22
     }, 
     {
@@ -1124,28 +1124,28 @@
       "prefix": "", 
       "suffix": " ", 
       "startTime": 202.22, 
-      "endTime": 203.28
+      "endTime": 203.1
     }, 
     {
       "text": "thy", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 203.28, 
-      "endTime": 204.7
+      "startTime": 203.1, 
+      "endTime": 204.74
     }, 
     {
       "text": "courts", 
       "prefix": "", 
       "suffix": " ", 
-      "startTime": 204.7, 
-      "endTime": 206.76
+      "startTime": 204.74, 
+      "endTime": 206.72
     }, 
     {
       "text": "above.", 
       "prefix": "", 
       "suffix": "", 
-      "startTime": 206.76, 
-      "endTime": 210.1
+      "startTime": 206.72, 
+      "endTime": 210.06
     }
   ]
 }

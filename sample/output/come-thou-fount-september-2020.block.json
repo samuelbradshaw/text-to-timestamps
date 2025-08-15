@@ -1,25 +1,25 @@
 {
   "metadata": {
-    "_": "Generated 2025-07-20 by Text to Timestamps (https://github.com/samuelbradshaw/text-to-timestamps)", 
-    "title": "One Small Step", 
-    "slug": "one-small-step", 
+    "_": "Generated 2025-08-14 by Text to Timestamps (https://github.com/samuelbradshaw/text-to-timestamps)", 
+    "title": "Come Thou Fount (September 2020)", 
+    "slug": "come-thou-fount-september-2020", 
     "lang": "en"
   }, 
   "segments": [
     {
       "text": "1. Come, thou fount of ev’ry blessing,\ntune my heart to sing thy grace.\nStreams of mercy, never ceasing,\ncall for songs of loudest praise.\nTeach me some melodious sonnet\nsung by flaming tongues above.\nPraise the mount, I’m fixed upon it,\nmount of thy redeeming love.\n\n", 
-      "startTime": 21.86, 
-      "endTime": 64.84
+      "startTime": 22.0, 
+      "endTime": 65.0
     }, 
     {
       "text": "2. Here I raise my Ebenezer,\nhither by thy help I’m come;\nAnd I hope, by thy good pleasure,\nsafely to arrive at home.\nJesus sought me when a stranger\nWand’ring from the fold of God.\nHe, to rescue me from danger\ninterposed His precious blood.\n\n", 
-      "startTime": 74.82, 
-      "endTime": 117.34
+      "startTime": 74.38, 
+      "endTime": 117.22
     }, 
     {
       "text": "3. Oh to grace, how great a debtor\ndaily I’m constrained to be.\nLet thy goodness like a fetter,\nbind my wand’ring heart to thee.\nProne to wander, Lord, I feel it;\nprone to leave the God I love;\nHere’s my heart, O take and seal it,\nseal it for thy courts above.\nSeal it for thy courts above.\nHere’s my heart, O take and seal it,\nseal it for thy courts above.", 
-      "startTime": 122.08, 
-      "endTime": 210.1
+      "startTime": 122.72, 
+      "endTime": 210.06
     }
   ]
 }
